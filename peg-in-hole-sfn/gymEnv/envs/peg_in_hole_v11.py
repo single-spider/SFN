@@ -20,10 +20,10 @@ import trimesh
    
 class PegInHole(gym.Env):
 	"""docstring for PegInHole"""
-	def __init__(self, peg_type=None, seed=0, test_mode=False):
+	def __init__(self, peg_type=None, seed=0, test_mode=False, gui_mode=False):
 		super(PegInHole, self).__init__()
 		# connect to pybullet
-		if 0:
+		if gui_mode:
 			self.id = p.connect(p.GUI)
 		else:
 			self.id = p.connect(p.DIRECT)
@@ -209,6 +209,7 @@ class PegInHole(gym.Env):
 							np.random.uniform(1,10)],
 			renderer=p.ER_TINY_RENDERER)
 		
+		rgb = np.reshape(rgb, (self.img_height, self.img_width, 4))
 		rgb_img = rgb[:,:,0:3]
 		hole_mask = cv2.inRange(self.mask,
 			lowerb=np.array([0,0,0], dtype = "uint8"),
