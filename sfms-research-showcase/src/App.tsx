@@ -13,7 +13,7 @@ const pct=(v:number)=>`${(v*100).toFixed(v===1?0:1)}%`
 const mm=(v:number)=>`${v.toFixed(3)} mm`
 const deg=(v:number)=>`${v.toFixed(3)}°`
 const clamp=(v:number,a:number,b:number)=>Math.max(a,Math.min(b,v))
-const asset=(path:string)=>`${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
+const asset=(path:string)=>`${import.meta.env.BASE_URL.replace(/\/+$/, '')}/${path.replace(/^\/+/, '')}`
 
 function useManifest(){const [data,setData]=useState<Manifest|null>(null);useEffect(()=>{fetch(asset('data/showcase-manifest.json')).then(r=>{if(!r.ok)throw Error(`manifest ${r.status}`);return r.json()}).then(setData).catch(()=>setData(null))},[]);return data}
 function Shell({children}:{children:React.ReactNode}){return <div className="app"><header className="topbar"><NavLink to="/overview" className="brand"><strong>SFN</strong><span>Vision-guided insertion</span></NavLink><nav>{nav.map(([label,to])=><NavLink key={to} to={to} className={({isActive})=>isActive?'active':''}>{label}</NavLink>)}</nav><div className="release"><i/>RESEARCH IMPLEMENTATION</div></header>{children}<footer><div><strong>SFN</strong><span>Implementation and experimental record</span></div><p>Robot results on this site are from dynamic PyBullet simulation; physical-robot evaluation remains future work.</p></footer></div>}
