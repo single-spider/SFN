@@ -1,0 +1,17 @@
+{
+  "renderer": "panda_observer_plus_native_camera",
+  "method": "sfms",
+  "policy_observation": "predicted_rgb_mask",
+  "shape": "square-concave2",
+  "seed": 9906,
+  "execution_mode": "dynamic",
+  "success": true,
+  "termination_reason": "panda_insertion_success",
+  "initial_xy_error_mm": 9.634855445221758,
+  "initial_yaw_error_deg": 1.4818406105041504,
+  "final_xy_error_mm": 0.10850062396692396,
+  "final_yaw_error_deg": 0.06406626239476054,
+  "insertion_depth_mm": 8.089042569171749,
+  "steps": 6,
+  "note": "Pose errors are simulator measurements used only for the visual overlay, not policy input."
+}
