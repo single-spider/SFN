@@ -193,12 +193,47 @@ class SessionManager:
                 frame["value"] += 1
                 session.emit("telemetry", session_id=session_id, telemetry=sample)
 
+            def emit_insertion(_observation: dict, trace: dict) -> None:
+                """Record every measured descent attempt, not only the final depth."""
+                if env is None or env.scene is None:
+                    return
+                state = env.scene.measure()
+                fingers = [
+                    float(env.scene.p.getJointState(env.scene.ids.robot, index, physicsClientId=env.scene.client_id)[0])
+                    for index in env.scene.config.finger_joint_indices
+                ]
+                commanded = np.asarray(
+                    [trace.get("commanded_dx_m", 0.0), trace.get("commanded_dy_m", 0.0), trace.get("commanded_dz_m", 0.0)],
+                    dtype=np.float64,
+                )
+                measured = np.asarray(
+                    [trace.get("measured_dx_m", 0.0), trace.get("measured_dy_m", 0.0), trace.get("measured_dz_m", 0.0)],
+                    dtype=np.float64,
+                )
+                sample = TelemetrySample(
+                    frame=frame["value"],
+                    phase="insertion",
+                    joint_positions=tuple(float(x) for x in state.joint_positions) + tuple(fingers),
+                    peg_pose=tuple(float(x) for x in [*state.peg_pos_world, *state.peg_quat_world]),
+                    hole_pose=tuple(float(x) for x in [*state.hole_pos_world, *state.hole_quat_world]),
+                    xy_error_mm=float(np.linalg.norm(state.pose_error_task[:2]) * 1000.0),
+                    yaw_error_deg=abs(float(state.pose_error_task[2])),
+                    action=None if action["value"] is None else tuple(float(x) for x in action["value"]),
+                    insertion_depth_mm=float(trace.get("insertion_depth_mm", 0.0)),
+                    contact_count=int(trace.get("contact_count", 0)),
+                    max_contact_force=float(trace.get("max_contact_force", 0.0)),
+                    tracking_error_mm=float(np.linalg.norm(measured - commanded) * 1000.0),
+                )
+                frame["value"] += 1
+                session.emit("telemetry", session_id=session_id, telemetry=sample)
+
             env = PandaPegInHoleInsertionEnv(
                 shapes=[session.request.shape],
                 panda_config=panda,
                 camera_config=camera,
                 motion_observer=emit_state,
                 motion_observer_stride=8,
+                insertion_observer=emit_insertion,
             )
             obs, _info = env.reset(seed=session.request.seed, options={"shape": session.request.shape})
             vsn = PandaTopdownTemplateVSN(

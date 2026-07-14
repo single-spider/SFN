@@ -5930,6 +5930,53 @@
     },
     {
       "frame": 126,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31644981458352434,
+        0.3900886904633142,
+        -0.2793010317818634,
+        -2.378904451220342,
+        0.272812904560109,
+        2.74195871517249,
+        2.1467704474890894,
+        0.009999999976159527,
+        0.01000000011857379
+      ],
+      "peg_pose": [
+        -0.9999933374590106,
+        -0.0002036810927579503,
+        0.06027395709460418,
+        -7.221997348678741e-8,
+        1.775122580547479e-8,
+        0.007170058402755556,
+        0.9999742948008692
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20379003164901757,
+      "yaw_error_deg": 0.8216352090501289,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 0.0,
+      "contact_count": 0,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.2500000012529172,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 127,
       "phase": "alignment",
       "joint_positions": [
         0.3164457298053824,
@@ -5976,7 +6023,7 @@
       "reason": null
     },
     {
-      "frame": 127,
+      "frame": 128,
       "phase": "alignment",
       "joint_positions": [
         0.3164331492704919,
@@ -6023,7 +6070,7 @@
       "reason": null
     },
     {
-      "frame": 128,
+      "frame": 129,
       "phase": "alignment",
       "joint_positions": [
         0.31641663338975834,
@@ -6070,7 +6117,7 @@
       "reason": null
     },
     {
-      "frame": 129,
+      "frame": 130,
       "phase": "alignment",
       "joint_positions": [
         0.31639887466152916,
@@ -6117,7 +6164,7 @@
       "reason": null
     },
     {
-      "frame": 130,
+      "frame": 131,
       "phase": "alignment",
       "joint_positions": [
         0.31638086324468595,
@@ -6164,7 +6211,7 @@
       "reason": null
     },
     {
-      "frame": 131,
+      "frame": 132,
       "phase": "alignment",
       "joint_positions": [
         0.31636280844790793,
@@ -6211,7 +6258,7 @@
       "reason": null
     },
     {
-      "frame": 132,
+      "frame": 133,
       "phase": "alignment",
       "joint_positions": [
         0.31634465737808193,
@@ -6258,7 +6305,7 @@
       "reason": null
     },
     {
-      "frame": 133,
+      "frame": 134,
       "phase": "alignment",
       "joint_positions": [
         0.31632633183145753,
@@ -6305,7 +6352,7 @@
       "reason": null
     },
     {
-      "frame": 134,
+      "frame": 135,
       "phase": "alignment",
       "joint_positions": [
         0.3163078071258541,
@@ -6352,7 +6399,7 @@
       "reason": null
     },
     {
-      "frame": 135,
+      "frame": 136,
       "phase": "alignment",
       "joint_positions": [
         0.31628911342911326,
@@ -6399,7 +6446,7 @@
       "reason": null
     },
     {
-      "frame": 136,
+      "frame": 137,
       "phase": "alignment",
       "joint_positions": [
         0.31627030932435574,
@@ -6446,7 +6493,7 @@
       "reason": null
     },
     {
-      "frame": 137,
+      "frame": 138,
       "phase": "alignment",
       "joint_positions": [
         0.31625145472739896,
@@ -6493,7 +6540,7 @@
       "reason": null
     },
     {
-      "frame": 138,
+      "frame": 139,
       "phase": "alignment",
       "joint_positions": [
         0.31623259422368183,
@@ -6540,7 +6587,7 @@
       "reason": null
     },
     {
-      "frame": 139,
+      "frame": 140,
       "phase": "alignment",
       "joint_positions": [
         0.3162137519953338,
@@ -6587,7 +6634,7 @@
       "reason": null
     },
     {
-      "frame": 140,
+      "frame": 141,
       "phase": "alignment",
       "joint_positions": [
         0.3161949348209322,
@@ -6634,7 +6681,54 @@
       "reason": null
     },
     {
-      "frame": 141,
+      "frame": 142,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3161949348209322,
+        0.39069378636305513,
+        -0.2789645278886346,
+        -2.37877029513622,
+        0.2732019836288629,
+        2.7424199012501664,
+        2.146482407261945,
+        0.010000000993979272,
+        0.009999999158708786
+      ],
+      "peg_pose": [
+        -0.9999933574484143,
+        -0.00020366360204470308,
+        0.0600479336265652,
+        -1.0353911071472268e-7,
+        4.956274375195027e-8,
+        0.007170036491379121,
+        0.999974294957975
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20377189769296314,
+      "yaw_error_deg": 0.8216326981268196,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 0.0,
+      "contact_count": 0,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.2500000014110026,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 143,
       "phase": "alignment",
       "joint_positions": [
         0.3161908550450003,
@@ -6681,7 +6775,7 @@
       "reason": null
     },
     {
-      "frame": 142,
+      "frame": 144,
       "phase": "alignment",
       "joint_positions": [
         0.31617826379766023,
@@ -6728,7 +6822,7 @@
       "reason": null
     },
     {
-      "frame": 143,
+      "frame": 145,
       "phase": "alignment",
       "joint_positions": [
         0.31616172908877427,
@@ -6775,7 +6869,7 @@
       "reason": null
     },
     {
-      "frame": 144,
+      "frame": 146,
       "phase": "alignment",
       "joint_positions": [
         0.31614394689555203,
@@ -6822,7 +6916,7 @@
       "reason": null
     },
     {
-      "frame": 145,
+      "frame": 147,
       "phase": "alignment",
       "joint_positions": [
         0.3161259101043293,
@@ -6869,7 +6963,7 @@
       "reason": null
     },
     {
-      "frame": 146,
+      "frame": 148,
       "phase": "alignment",
       "joint_positions": [
         0.31610782981033053,
@@ -6916,7 +7010,7 @@
       "reason": null
     },
     {
-      "frame": 147,
+      "frame": 149,
       "phase": "alignment",
       "joint_positions": [
         0.31608965404200917,
@@ -6963,7 +7057,7 @@
       "reason": null
     },
     {
-      "frame": 148,
+      "frame": 150,
       "phase": "alignment",
       "joint_positions": [
         0.31607130488402546,
@@ -7010,7 +7104,7 @@
       "reason": null
     },
     {
-      "frame": 149,
+      "frame": 151,
       "phase": "alignment",
       "joint_positions": [
         0.31605275755236245,
@@ -7057,7 +7151,7 @@
       "reason": null
     },
     {
-      "frame": 150,
+      "frame": 152,
       "phase": "alignment",
       "joint_positions": [
         0.316034041923829,
@@ -7104,7 +7198,7 @@
       "reason": null
     },
     {
-      "frame": 151,
+      "frame": 153,
       "phase": "alignment",
       "joint_positions": [
         0.31601521624792384,
@@ -7151,7 +7245,7 @@
       "reason": null
     },
     {
-      "frame": 152,
+      "frame": 154,
       "phase": "alignment",
       "joint_positions": [
         0.3159963401570951,
@@ -7198,7 +7292,7 @@
       "reason": null
     },
     {
-      "frame": 153,
+      "frame": 155,
       "phase": "alignment",
       "joint_positions": [
         0.3159774580485297,
@@ -7245,7 +7339,7 @@
       "reason": null
     },
     {
-      "frame": 154,
+      "frame": 156,
       "phase": "alignment",
       "joint_positions": [
         0.31595859401772436,
@@ -7292,7 +7386,7 @@
       "reason": null
     },
     {
-      "frame": 155,
+      "frame": 157,
       "phase": "alignment",
       "joint_positions": [
         0.3159397548390181,
@@ -7339,7 +7433,54 @@
       "reason": null
     },
     {
-      "frame": 156,
+      "frame": 158,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3159397548390181,
+        0.3912989510037556,
+        -0.2786277557163272,
+        -2.3786357117220285,
+        0.27359060643822325,
+        2.742880881784133,
+        2.1461946378628234,
+        0.010000000984164542,
+        0.009999999168218185
+      ],
+      "peg_pose": [
+        -0.9999933780905451,
+        -0.00020365503075630548,
+        0.059821913344932,
+        -1.4502342080242502e-7,
+        8.17050171862565e-8,
+        0.007170014112611833,
+        0.9999742951184282
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2037626590844859,
+      "yaw_error_deg": 0.8216301336431968,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 0.17808665506800075,
+      "contact_count": 12,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.07191334840537777,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 159,
       "phase": "alignment",
       "joint_positions": [
         0.31593566543749985,
@@ -7386,7 +7527,7 @@
       "reason": null
     },
     {
-      "frame": 157,
+      "frame": 160,
       "phase": "alignment",
       "joint_positions": [
         0.3159230611225005,
@@ -7433,7 +7574,7 @@
       "reason": null
     },
     {
-      "frame": 158,
+      "frame": 161,
       "phase": "alignment",
       "joint_positions": [
         0.3159065122064393,
@@ -7480,7 +7621,7 @@
       "reason": null
     },
     {
-      "frame": 159,
+      "frame": 162,
       "phase": "alignment",
       "joint_positions": [
         0.31588871353779513,
@@ -7527,7 +7668,7 @@
       "reason": null
     },
     {
-      "frame": 160,
+      "frame": 163,
       "phase": "alignment",
       "joint_positions": [
         0.31587065768968,
@@ -7574,7 +7715,7 @@
       "reason": null
     },
     {
-      "frame": 161,
+      "frame": 164,
       "phase": "alignment",
       "joint_positions": [
         0.31585255619941077,
@@ -7621,7 +7762,7 @@
       "reason": null
     },
     {
-      "frame": 162,
+      "frame": 165,
       "phase": "alignment",
       "joint_positions": [
         0.3158343579383406,
@@ -7668,7 +7809,7 @@
       "reason": null
     },
     {
-      "frame": 163,
+      "frame": 166,
       "phase": "alignment",
       "joint_positions": [
         0.3158159858717993,
@@ -7715,7 +7856,7 @@
       "reason": null
     },
     {
-      "frame": 164,
+      "frame": 167,
       "phase": "alignment",
       "joint_positions": [
         0.3157974158725207,
@@ -7762,7 +7903,7 @@
       "reason": null
     },
     {
-      "frame": 165,
+      "frame": 168,
       "phase": "alignment",
       "joint_positions": [
         0.3157786781424942,
@@ -7809,7 +7950,7 @@
       "reason": null
     },
     {
-      "frame": 166,
+      "frame": 169,
       "phase": "alignment",
       "joint_positions": [
         0.31575983095534726,
@@ -7856,7 +7997,7 @@
       "reason": null
     },
     {
-      "frame": 167,
+      "frame": 170,
       "phase": "alignment",
       "joint_positions": [
         0.3157409337771084,
@@ -7903,7 +8044,7 @@
       "reason": null
     },
     {
-      "frame": 168,
+      "frame": 171,
       "phase": "alignment",
       "joint_positions": [
         0.31572203077411803,
@@ -7950,7 +8091,7 @@
       "reason": null
     },
     {
-      "frame": 169,
+      "frame": 172,
       "phase": "alignment",
       "joint_positions": [
         0.31570314584281745,
@@ -7997,7 +8138,7 @@
       "reason": null
     },
     {
-      "frame": 170,
+      "frame": 173,
       "phase": "alignment",
       "joint_positions": [
         0.31568428563828765,
@@ -8044,7 +8185,54 @@
       "reason": null
     },
     {
-      "frame": 171,
+      "frame": 174,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31568428563828765,
+        0.3919042032973411,
+        -0.2782907499237264,
+        -2.378500702221654,
+        0.27397873487854046,
+        2.743341675121598,
+        2.145907151053873,
+        0.010000000979195003,
+        0.009999999173156606
+      ],
+      "peg_pose": [
+        -0.9999933984788189,
+        -0.00020363812524786722,
+        0.05959589059833269,
+        -1.7751888475162164e-7,
+        1.1330033366678226e-7,
+        0.007169992355880199,
+        0.9999742952744196
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20374510088925135,
+      "yaw_error_deg": 0.8216276404419887,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 0.40410940166731024,
+      "contact_count": 12,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397726802867346,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 175,
       "phase": "alignment",
       "joint_positions": [
         0.3156801852315065,
@@ -8091,7 +8279,7 @@
       "reason": null
     },
     {
-      "frame": 172,
+      "frame": 176,
       "phase": "alignment",
       "joint_positions": [
         0.3156675665333891,
@@ -8138,7 +8326,7 @@
       "reason": null
     },
     {
-      "frame": 173,
+      "frame": 177,
       "phase": "alignment",
       "joint_positions": [
         0.31565100245239286,
@@ -8185,7 +8373,7 @@
       "reason": null
     },
     {
-      "frame": 174,
+      "frame": 178,
       "phase": "alignment",
       "joint_positions": [
         0.3156331866130672,
@@ -8232,7 +8420,7 @@
       "reason": null
     },
     {
-      "frame": 175,
+      "frame": 179,
       "phase": "alignment",
       "joint_positions": [
         0.3156151110817104,
@@ -8279,7 +8467,7 @@
       "reason": null
     },
     {
-      "frame": 176,
+      "frame": 180,
       "phase": "alignment",
       "joint_positions": [
         0.31559698768229166,
@@ -8326,7 +8514,7 @@
       "reason": null
     },
     {
-      "frame": 177,
+      "frame": 181,
       "phase": "alignment",
       "joint_positions": [
         0.31557876605592267,
@@ -8373,7 +8561,7 @@
       "reason": null
     },
     {
-      "frame": 178,
+      "frame": 182,
       "phase": "alignment",
       "joint_positions": [
         0.31556037004810716,
@@ -8420,7 +8608,7 @@
       "reason": null
     },
     {
-      "frame": 179,
+      "frame": 183,
       "phase": "alignment",
       "joint_positions": [
         0.3155417762298269,
@@ -8467,7 +8655,7 @@
       "reason": null
     },
     {
-      "frame": 180,
+      "frame": 184,
       "phase": "alignment",
       "joint_positions": [
         0.31552301518145714,
@@ -8514,7 +8702,7 @@
       "reason": null
     },
     {
-      "frame": 181,
+      "frame": 185,
       "phase": "alignment",
       "joint_positions": [
         0.3155041452456102,
@@ -8561,7 +8749,7 @@
       "reason": null
     },
     {
-      "frame": 182,
+      "frame": 186,
       "phase": "alignment",
       "joint_positions": [
         0.3154852257500416,
@@ -8608,7 +8796,7 @@
       "reason": null
     },
     {
-      "frame": 183,
+      "frame": 187,
       "phase": "alignment",
       "joint_positions": [
         0.3154663006420186,
@@ -8655,7 +8843,7 @@
       "reason": null
     },
     {
-      "frame": 184,
+      "frame": 188,
       "phase": "alignment",
       "joint_positions": [
         0.3154473936191279,
@@ -8702,7 +8890,7 @@
       "reason": null
     },
     {
-      "frame": 185,
+      "frame": 189,
       "phase": "alignment",
       "joint_positions": [
         0.3154285112115499,
@@ -8749,7 +8937,54 @@
       "reason": null
     },
     {
-      "frame": 186,
+      "frame": 190,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3154285112115499,
+        0.39250952263026645,
+        -0.2779534673962647,
+        -2.378365266351543,
+        0.27436641868023537,
+        2.743802264619212,
+        2.145619927592967,
+        0.010000000975027408,
+        0.009999999177326425
+      ],
+      "peg_pose": [
+        -0.9999934192784493,
+        -0.0002036319971635054,
+        0.05936987115010228,
+        -2.2379038509744197e-7,
+        1.455695870950532e-7,
+        0.007169969856361416,
+        0.9999742954357315
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20373830313646363,
+      "yaw_error_deg": 0.8216250621213703,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 0.6301288498977153,
+      "contact_count": 12,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023980561572912902,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 191,
       "phase": "alignment",
       "joint_positions": [
         0.31542440148798123,
@@ -8796,7 +9031,7 @@
       "reason": null
     },
     {
-      "frame": 187,
+      "frame": 192,
       "phase": "alignment",
       "joint_positions": [
         0.3154117699512347,
@@ -8843,7 +9078,7 @@
       "reason": null
     },
     {
-      "frame": 188,
+      "frame": 193,
       "phase": "alignment",
       "joint_positions": [
         0.3153951917921033,
@@ -8890,7 +9125,7 @@
       "reason": null
     },
     {
-      "frame": 189,
+      "frame": 194,
       "phase": "alignment",
       "joint_positions": [
         0.31537735955171353,
@@ -8937,7 +9172,7 @@
       "reason": null
     },
     {
-      "frame": 190,
+      "frame": 195,
       "phase": "alignment",
       "joint_positions": [
         0.31535926503705275,
@@ -8984,7 +9219,7 @@
       "reason": null
     },
     {
-      "frame": 191,
+      "frame": 196,
       "phase": "alignment",
       "joint_positions": [
         0.31534112055066027,
@@ -9031,7 +9266,7 @@
       "reason": null
     },
     {
-      "frame": 192,
+      "frame": 197,
       "phase": "alignment",
       "joint_positions": [
         0.31532287658895625,
@@ -9078,7 +9313,7 @@
       "reason": null
     },
     {
-      "frame": 193,
+      "frame": 198,
       "phase": "alignment",
       "joint_positions": [
         0.31530445787138095,
@@ -9125,7 +9360,7 @@
       "reason": null
     },
     {
-      "frame": 194,
+      "frame": 199,
       "phase": "alignment",
       "joint_positions": [
         0.3152858416092825,
@@ -9172,7 +9407,7 @@
       "reason": null
     },
     {
-      "frame": 195,
+      "frame": 200,
       "phase": "alignment",
       "joint_positions": [
         0.3152670586910694,
@@ -9219,7 +9454,7 @@
       "reason": null
     },
     {
-      "frame": 196,
+      "frame": 201,
       "phase": "alignment",
       "joint_positions": [
         0.31524816747116813,
@@ -9266,7 +9501,7 @@
       "reason": null
     },
     {
-      "frame": 197,
+      "frame": 202,
       "phase": "alignment",
       "joint_positions": [
         0.315229227105261,
@@ -9313,7 +9548,7 @@
       "reason": null
     },
     {
-      "frame": 198,
+      "frame": 203,
       "phase": "alignment",
       "joint_positions": [
         0.3152102813097729,
@@ -9360,7 +9595,7 @@
       "reason": null
     },
     {
-      "frame": 199,
+      "frame": 204,
       "phase": "alignment",
       "joint_positions": [
         0.315191353586532,
@@ -9407,7 +9642,7 @@
       "reason": null
     },
     {
-      "frame": 200,
+      "frame": 205,
       "phase": "alignment",
       "joint_positions": [
         0.3151724503506253,
@@ -9454,7 +9689,54 @@
       "reason": null
     },
     {
-      "frame": 201,
+      "frame": 206,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3151724503506253,
+        0.39311492979938917,
+        -0.2776159573758239,
+        -2.3782294061454055,
+        0.27475360285155404,
+        2.7442626686736693,
+        2.1453329879405074,
+        0.01000000096987309,
+        0.009999999182439745
+      ],
+      "peg_pose": [
+        -0.9999934394208039,
+        -0.00020361609178767828,
+        0.059143848928601146,
+        -2.6002879032455935e-7,
+        1.7727563628427266e-7,
+        0.007169948263264974,
+        0.9999742955905432
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20372175640877643,
+      "yaw_error_deg": 0.8216225876724366,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 0.8561510713988516,
+      "contact_count": 13,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023977792234398894,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 207,
       "phase": "alignment",
       "joint_positions": [
         0.3151683300905364,
@@ -9501,7 +9783,7 @@
       "reason": null
     },
     {
-      "frame": 202,
+      "frame": 208,
       "phase": "alignment",
       "joint_positions": [
         0.3151556851513312,
@@ -9548,7 +9830,7 @@
       "reason": null
     },
     {
-      "frame": 203,
+      "frame": 209,
       "phase": "alignment",
       "joint_positions": [
         0.3151390929213308,
@@ -9595,7 +9877,7 @@
       "reason": null
     },
     {
-      "frame": 204,
+      "frame": 210,
       "phase": "alignment",
       "joint_positions": [
         0.3151212445948223,
@@ -9642,7 +9924,7 @@
       "reason": null
     },
     {
-      "frame": 205,
+      "frame": 211,
       "phase": "alignment",
       "joint_positions": [
         0.31510313146447905,
@@ -9689,7 +9971,7 @@
       "reason": null
     },
     {
-      "frame": 206,
+      "frame": 212,
       "phase": "alignment",
       "joint_positions": [
         0.3150849661499334,
@@ -9736,7 +10018,7 @@
       "reason": null
     },
     {
-      "frame": 207,
+      "frame": 213,
       "phase": "alignment",
       "joint_positions": [
         0.3150666999445664,
@@ -9783,7 +10065,7 @@
       "reason": null
     },
     {
-      "frame": 208,
+      "frame": 214,
       "phase": "alignment",
       "joint_positions": [
         0.315048258457171,
@@ -9830,7 +10112,7 @@
       "reason": null
     },
     {
-      "frame": 209,
+      "frame": 215,
       "phase": "alignment",
       "joint_positions": [
         0.31502961958985704,
@@ -9877,7 +10159,7 @@
       "reason": null
     },
     {
-      "frame": 210,
+      "frame": 216,
       "phase": "alignment",
       "joint_positions": [
         0.3150108145933608,
@@ -9924,7 +10206,7 @@
       "reason": null
     },
     {
-      "frame": 211,
+      "frame": 217,
       "phase": "alignment",
       "joint_positions": [
         0.3149919018747,
@@ -9971,7 +10253,7 @@
       "reason": null
     },
     {
-      "frame": 212,
+      "frame": 218,
       "phase": "alignment",
       "joint_positions": [
         0.3149729404396771,
@@ -10018,7 +10300,7 @@
       "reason": null
     },
     {
-      "frame": 213,
+      "frame": 219,
       "phase": "alignment",
       "joint_positions": [
         0.31495397378029033,
@@ -10065,7 +10347,7 @@
       "reason": null
     },
     {
-      "frame": 214,
+      "frame": 220,
       "phase": "alignment",
       "joint_positions": [
         0.31493502519925254,
@@ -10112,7 +10394,7 @@
       "reason": null
     },
     {
-      "frame": 215,
+      "frame": 221,
       "phase": "alignment",
       "joint_positions": [
         0.314916100989296,
@@ -10159,7 +10441,54 @@
       "reason": null
     },
     {
-      "frame": 216,
+      "frame": 222,
+      "phase": "insertion",
+      "joint_positions": [
+        0.314916100989296,
+        0.39372041723264417,
+        -0.2772782014546708,
+        -2.3780931208679243,
+        0.2751403080540559,
+        2.744722882051494,
+        2.145046329550458,
+        0.010000000965414327,
+        0.009999999186887851
+      ],
+      "peg_pose": [
+        -0.9999934595918885,
+        -0.0002036010331491271,
+        0.05891782610479971,
+        -2.9585254870960013e-7,
+        2.0953185099043437e-7,
+        0.007169926836961639,
+        0.9999742957441562
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20370605694887303,
+      "yaw_error_deg": 0.8216201323371024,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 1.0821738952002877,
+      "contact_count": 19,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023977189411860316,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 223,
       "phase": "alignment",
       "joint_positions": [
         0.3149119708615611,
@@ -10206,7 +10535,7 @@
       "reason": null
     },
     {
-      "frame": 217,
+      "frame": 224,
       "phase": "alignment",
       "joint_positions": [
         0.31489931282443495,
@@ -10253,7 +10582,7 @@
       "reason": null
     },
     {
-      "frame": 218,
+      "frame": 225,
       "phase": "alignment",
       "joint_positions": [
         0.31488270654740486,
@@ -10300,7 +10629,7 @@
       "reason": null
     },
     {
-      "frame": 219,
+      "frame": 226,
       "phase": "alignment",
       "joint_positions": [
         0.31486484202554116,
@@ -10347,7 +10676,7 @@
       "reason": null
     },
     {
-      "frame": 220,
+      "frame": 227,
       "phase": "alignment",
       "joint_positions": [
         0.31484671016836285,
@@ -10394,7 +10723,7 @@
       "reason": null
     },
     {
-      "frame": 221,
+      "frame": 228,
       "phase": "alignment",
       "joint_positions": [
         0.3148285239892813,
@@ -10441,7 +10770,7 @@
       "reason": null
     },
     {
-      "frame": 222,
+      "frame": 229,
       "phase": "alignment",
       "joint_positions": [
         0.3148102356000461,
@@ -10488,7 +10817,7 @@
       "reason": null
     },
     {
-      "frame": 223,
+      "frame": 230,
       "phase": "alignment",
       "joint_positions": [
         0.31479177148272675,
@@ -10535,7 +10864,7 @@
       "reason": null
     },
     {
-      "frame": 224,
+      "frame": 231,
       "phase": "alignment",
       "joint_positions": [
         0.3147731101981834,
@@ -10582,7 +10911,7 @@
       "reason": null
     },
     {
-      "frame": 225,
+      "frame": 232,
       "phase": "alignment",
       "joint_positions": [
         0.31475428332823785,
@@ -10629,7 +10958,7 @@
       "reason": null
     },
     {
-      "frame": 226,
+      "frame": 233,
       "phase": "alignment",
       "joint_positions": [
         0.31473534931092784,
@@ -10676,7 +11005,7 @@
       "reason": null
     },
     {
-      "frame": 227,
+      "frame": 234,
       "phase": "alignment",
       "joint_positions": [
         0.31471636699222544,
@@ -10723,7 +11052,7 @@
       "reason": null
     },
     {
-      "frame": 228,
+      "frame": 235,
       "phase": "alignment",
       "joint_positions": [
         0.3146973796389526,
@@ -10770,7 +11099,7 @@
       "reason": null
     },
     {
-      "frame": 229,
+      "frame": 236,
       "phase": "alignment",
       "joint_positions": [
         0.3146784103590922,
@@ -10817,7 +11146,7 @@
       "reason": null
     },
     {
-      "frame": 230,
+      "frame": 237,
       "phase": "alignment",
       "joint_positions": [
         0.3146594653288069,
@@ -10864,7 +11193,54 @@
       "reason": null
     },
     {
-      "frame": 231,
+      "frame": 238,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3146594653288069,
+        0.3943259848349265,
+        -0.27694020731145325,
+        -2.3779564087199883,
+        0.27552652680275097,
+        2.7451828999773973,
+        2.14475995500058,
+        0.010000000960635566,
+        0.009999999191636908
+      ],
+      "peg_pose": [
+        -0.9999934800474567,
+        -0.00020358432401032064,
+        0.058691803203958476,
+        -3.296402729111791e-7,
+        2.410590636819418e-7,
+        0.007169905388348421,
+        0.9999742958979273
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20368870062894054,
+      "yaw_error_deg": 0.8216176744454629,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 1.308196796041522,
+      "contact_count": 20,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397711370650935,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 239,
       "phase": "alignment",
       "joint_positions": [
         0.3146553251660968,
@@ -10911,7 +11287,7 @@
       "reason": null
     },
     {
-      "frame": 232,
+      "frame": 240,
       "phase": "alignment",
       "joint_positions": [
         0.31464265404928915,
@@ -10958,7 +11334,7 @@
       "reason": null
     },
     {
-      "frame": 233,
+      "frame": 241,
       "phase": "alignment",
       "joint_positions": [
         0.3146260338993959,
@@ -11005,7 +11381,7 @@
       "reason": null
     },
     {
-      "frame": 234,
+      "frame": 242,
       "phase": "alignment",
       "joint_positions": [
         0.31460815344889315,
@@ -11052,7 +11428,7 @@
       "reason": null
     },
     {
-      "frame": 235,
+      "frame": 243,
       "phase": "alignment",
       "joint_positions": [
         0.3145900031635736,
@@ -11099,7 +11475,7 @@
       "reason": null
     },
     {
-      "frame": 236,
+      "frame": 244,
       "phase": "alignment",
       "joint_positions": [
         0.3145717964102078,
@@ -11146,7 +11522,7 @@
       "reason": null
     },
     {
-      "frame": 237,
+      "frame": 245,
       "phase": "alignment",
       "joint_positions": [
         0.3145534861007057,
@@ -11193,7 +11569,7 @@
       "reason": null
     },
     {
-      "frame": 238,
+      "frame": 246,
       "phase": "alignment",
       "joint_positions": [
         0.314534999588559,
@@ -11240,7 +11616,7 @@
       "reason": null
     },
     {
-      "frame": 239,
+      "frame": 247,
       "phase": "alignment",
       "joint_positions": [
         0.3145163161001223,
@@ -11287,7 +11663,7 @@
       "reason": null
     },
     {
-      "frame": 240,
+      "frame": 248,
       "phase": "alignment",
       "joint_positions": [
         0.3144974675573844,
@@ -11334,7 +11710,7 @@
       "reason": null
     },
     {
-      "frame": 241,
+      "frame": 249,
       "phase": "alignment",
       "joint_positions": [
         0.31447851243715963,
@@ -11381,7 +11757,7 @@
       "reason": null
     },
     {
-      "frame": 242,
+      "frame": 250,
       "phase": "alignment",
       "joint_positions": [
         0.314459509430655,
@@ -11428,7 +11804,7 @@
       "reason": null
     },
     {
-      "frame": 243,
+      "frame": 251,
       "phase": "alignment",
       "joint_positions": [
         0.31444050158197995,
@@ -11475,7 +11851,7 @@
       "reason": null
     },
     {
-      "frame": 244,
+      "frame": 252,
       "phase": "alignment",
       "joint_positions": [
         0.3144215118049803,
@@ -11522,7 +11898,7 @@
       "reason": null
     },
     {
-      "frame": 245,
+      "frame": 253,
       "phase": "alignment",
       "joint_positions": [
         0.3144025461587884,
@@ -11569,7 +11945,54 @@
       "reason": null
     },
     {
-      "frame": 246,
+      "frame": 254,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3144025461587884,
+        0.39493162742970433,
+        -0.27660197295051075,
+        -2.3778192749231777,
+        0.27591226173548855,
+        2.7456427250327406,
+        2.1444738657867166,
+        0.010000000955992112,
+        0.00999999919625913
+      ],
+      "peg_pose": [
+        -0.9999934998229886,
+        -0.00020356888296572473,
+        0.05846578111172252,
+        -3.632967838911999e-7,
+        2.7294928946466055e-7,
+        0.007169883994919601,
+        0.9999742960513
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20367263540567446,
+      "yaw_error_deg": 0.821615222877881,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 1.5342188882774763,
+      "contact_count": 20,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397792089065687,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 255,
       "phase": "alignment",
       "joint_positions": [
         0.3143983959431077,
@@ -11616,7 +12039,7 @@
       "reason": null
     },
     {
-      "frame": 247,
+      "frame": 256,
       "phase": "alignment",
       "joint_positions": [
         0.3143857113397063,
@@ -11663,7 +12086,7 @@
       "reason": null
     },
     {
-      "frame": 248,
+      "frame": 257,
       "phase": "alignment",
       "joint_positions": [
         0.31436907666962927,
@@ -11710,7 +12133,7 @@
       "reason": null
     },
     {
-      "frame": 249,
+      "frame": 258,
       "phase": "alignment",
       "joint_positions": [
         0.314351179520765,
@@ -11757,7 +12180,7 @@
       "reason": null
     },
     {
-      "frame": 250,
+      "frame": 259,
       "phase": "alignment",
       "joint_positions": [
         0.3143330099972275,
@@ -11804,7 +12227,7 @@
       "reason": null
     },
     {
-      "frame": 251,
+      "frame": 260,
       "phase": "alignment",
       "joint_positions": [
         0.3143147818662654,
@@ -11851,7 +12274,7 @@
       "reason": null
     },
     {
-      "frame": 252,
+      "frame": 261,
       "phase": "alignment",
       "joint_positions": [
         0.31429644885850205,
@@ -11898,7 +12321,7 @@
       "reason": null
     },
     {
-      "frame": 253,
+      "frame": 262,
       "phase": "alignment",
       "joint_positions": [
         0.31427793919849295,
@@ -11945,7 +12368,7 @@
       "reason": null
     },
     {
-      "frame": 254,
+      "frame": 263,
       "phase": "alignment",
       "joint_positions": [
         0.3142592327686663,
@@ -11992,7 +12415,7 @@
       "reason": null
     },
     {
-      "frame": 255,
+      "frame": 264,
       "phase": "alignment",
       "joint_positions": [
         0.31424036182031867,
@@ -12039,7 +12462,7 @@
       "reason": null
     },
     {
-      "frame": 256,
+      "frame": 265,
       "phase": "alignment",
       "joint_positions": [
         0.31422138486112267,
@@ -12086,7 +12509,7 @@
       "reason": null
     },
     {
-      "frame": 257,
+      "frame": 266,
       "phase": "alignment",
       "joint_positions": [
         0.3142023604239186,
@@ -12133,7 +12556,7 @@
       "reason": null
     },
     {
-      "frame": 258,
+      "frame": 267,
       "phase": "alignment",
       "joint_positions": [
         0.3141833313301588,
@@ -12180,7 +12603,7 @@
       "reason": null
     },
     {
-      "frame": 259,
+      "frame": 268,
       "phase": "alignment",
       "joint_positions": [
         0.3141643203017016,
@@ -12227,7 +12650,7 @@
       "reason": null
     },
     {
-      "frame": 260,
+      "frame": 269,
       "phase": "alignment",
       "joint_positions": [
         0.31414533328332905,
@@ -12274,7 +12697,54 @@
       "reason": null
     },
     {
-      "frame": 261,
+      "frame": 270,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31414533328332905,
+        0.39553735073431406,
+        -0.27626348937708717,
+        -2.377681714231809,
+        0.27629752473333247,
+        2.7461023579700035,
+        2.144188049435443,
+        0.01000000095123403,
+        0.009999999200986431
+      ],
+      "peg_pose": [
+        -0.9999935201128741,
+        -0.00020355488758173808,
+        0.058239758132739655,
+        -4.0055751713433876e-7,
+        3.0536143384570505e-7,
+        0.007169862737377519,
+        0.9999742962036942
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2036580005685466,
+      "yaw_error_deg": 0.8216127868824401,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 1.7602418672603426,
+      "contact_count": 20,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397703368655725,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 271,
       "phase": "alignment",
       "joint_positions": [
         0.3141411728435075,
@@ -12321,7 +12791,7 @@
       "reason": null
     },
     {
-      "frame": 262,
+      "frame": 272,
       "phase": "alignment",
       "joint_positions": [
         0.3141284746343068,
@@ -12368,7 +12838,7 @@
       "reason": null
     },
     {
-      "frame": 263,
+      "frame": 273,
       "phase": "alignment",
       "joint_positions": [
         0.3141118254329374,
@@ -12415,7 +12885,7 @@
       "reason": null
     },
     {
-      "frame": 264,
+      "frame": 274,
       "phase": "alignment",
       "joint_positions": [
         0.3140939116566787,
@@ -12462,7 +12932,7 @@
       "reason": null
     },
     {
-      "frame": 265,
+      "frame": 275,
       "phase": "alignment",
       "joint_positions": [
         0.3140757230032982,
@@ -12509,7 +12979,7 @@
       "reason": null
     },
     {
-      "frame": 266,
+      "frame": 276,
       "phase": "alignment",
       "joint_positions": [
         0.314057473602996,
@@ -12556,7 +13026,7 @@
       "reason": null
     },
     {
-      "frame": 267,
+      "frame": 277,
       "phase": "alignment",
       "joint_positions": [
         0.3140391179837705,
@@ -12603,7 +13073,7 @@
       "reason": null
     },
     {
-      "frame": 268,
+      "frame": 278,
       "phase": "alignment",
       "joint_positions": [
         0.3140205852350262,
@@ -12650,7 +13120,7 @@
       "reason": null
     },
     {
-      "frame": 269,
+      "frame": 279,
       "phase": "alignment",
       "joint_positions": [
         0.3140018558988587,
@@ -12697,7 +13167,7 @@
       "reason": null
     },
     {
-      "frame": 270,
+      "frame": 280,
       "phase": "alignment",
       "joint_positions": [
         0.31398296256367236,
@@ -12744,7 +13214,7 @@
       "reason": null
     },
     {
-      "frame": 271,
+      "frame": 281,
       "phase": "alignment",
       "joint_positions": [
         0.3139639637759822,
@@ -12791,7 +13261,7 @@
       "reason": null
     },
     {
-      "frame": 272,
+      "frame": 282,
       "phase": "alignment",
       "joint_positions": [
         0.3139449179163496,
@@ -12838,7 +13308,7 @@
       "reason": null
     },
     {
-      "frame": 273,
+      "frame": 283,
       "phase": "alignment",
       "joint_positions": [
         0.31392586758720553,
@@ -12885,7 +13355,7 @@
       "reason": null
     },
     {
-      "frame": 274,
+      "frame": 284,
       "phase": "alignment",
       "joint_positions": [
         0.31390683531993413,
@@ -12932,7 +13402,7 @@
       "reason": null
     },
     {
-      "frame": 275,
+      "frame": 285,
       "phase": "alignment",
       "joint_positions": [
         0.31388782694503603,
@@ -12979,7 +13449,54 @@
       "reason": null
     },
     {
-      "frame": 276,
+      "frame": 286,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31388782694503603,
+        0.3961431458106253,
+        -0.27592474999711203,
+        -2.377543726476552,
+        0.27668232348714783,
+        2.7465617893103778,
+        2.1439025059956727,
+        0.01000000094664725,
+        0.009999999205546856
+      ],
+      "peg_pose": [
+        -0.999993541167242,
+        -0.00020354773160933536,
+        0.05801373724133509,
+        -4.4705403356735076e-7,
+        3.3788467718807666e-7,
+        0.007169841204918636,
+        0.9999742963580525
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20365017938588056,
+      "yaw_error_deg": 0.8216103193835238,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 1.9862627586649113,
+      "contact_count": 20,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023979118906370108,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 287,
       "phase": "alignment",
       "joint_positions": [
         0.3138836571301827,
@@ -13026,7 +13543,7 @@
       "reason": null
     },
     {
-      "frame": 277,
+      "frame": 288,
       "phase": "alignment",
       "joint_positions": [
         0.3138709465066856,
@@ -13073,7 +13590,7 @@
       "reason": null
     },
     {
-      "frame": 278,
+      "frame": 289,
       "phase": "alignment",
       "joint_positions": [
         0.3138542840112631,
@@ -13120,7 +13637,7 @@
       "reason": null
     },
     {
-      "frame": 279,
+      "frame": 290,
       "phase": "alignment",
       "joint_positions": [
         0.3138363548394519,
@@ -13167,7 +13684,7 @@
       "reason": null
     },
     {
-      "frame": 280,
+      "frame": 291,
       "phase": "alignment",
       "joint_positions": [
         0.3138181483139963,
@@ -13214,7 +13731,7 @@
       "reason": null
     },
     {
-      "frame": 281,
+      "frame": 292,
       "phase": "alignment",
       "joint_positions": [
         0.3137998789663199,
@@ -13261,7 +13778,7 @@
       "reason": null
     },
     {
-      "frame": 282,
+      "frame": 293,
       "phase": "alignment",
       "joint_positions": [
         0.31378150213786127,
@@ -13308,7 +13825,7 @@
       "reason": null
     },
     {
-      "frame": 283,
+      "frame": 294,
       "phase": "alignment",
       "joint_positions": [
         0.31376294777475905,
@@ -13355,7 +13872,7 @@
       "reason": null
     },
     {
-      "frame": 284,
+      "frame": 295,
       "phase": "alignment",
       "joint_positions": [
         0.31374419705640644,
@@ -13402,7 +13919,7 @@
       "reason": null
     },
     {
-      "frame": 285,
+      "frame": 296,
       "phase": "alignment",
       "joint_positions": [
         0.3137252828832356,
@@ -13449,7 +13966,7 @@
       "reason": null
     },
     {
-      "frame": 286,
+      "frame": 297,
       "phase": "alignment",
       "joint_positions": [
         0.3137062638207923,
@@ -13496,7 +14013,7 @@
       "reason": null
     },
     {
-      "frame": 287,
+      "frame": 298,
       "phase": "alignment",
       "joint_positions": [
         0.31368719808595846,
@@ -13543,7 +14060,7 @@
       "reason": null
     },
     {
-      "frame": 288,
+      "frame": 299,
       "phase": "alignment",
       "joint_positions": [
         0.3136681280584894,
@@ -13590,7 +14107,7 @@
       "reason": null
     },
     {
-      "frame": 289,
+      "frame": 300,
       "phase": "alignment",
       "joint_positions": [
         0.31364907608076076,
@@ -13637,7 +14154,7 @@
       "reason": null
     },
     {
-      "frame": 290,
+      "frame": 301,
       "phase": "alignment",
       "joint_positions": [
         0.3136300478726434,
@@ -13684,7 +14201,54 @@
       "reason": null
     },
     {
-      "frame": 291,
+      "frame": 302,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3136300478726434,
+        0.39674902054111827,
+        -0.27558578760844893,
+        -2.3774053158047095,
+        0.27706662072668026,
+        2.74702102889411,
+        2.1436172584754503,
+        0.010000000941741284,
+        0.009999999210413571
+      ],
+      "peg_pose": [
+        -0.9999935618347201,
+        -0.00020353838465408545,
+        0.057787716149504745,
+        -4.880872838379384e-7,
+        3.699396424244675e-7,
+        0.0071698201035827434,
+        0.9999742965093189
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20364018267465225,
+      "yaw_error_deg": 0.8216079012894397,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 2.212283850495253,
+      "contact_count": 20,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023978918898047152,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 303,
       "phase": "alignment",
       "joint_positions": [
         0.3136258680007147,
@@ -13731,7 +14295,7 @@
       "reason": null
     },
     {
-      "frame": 292,
+      "frame": 304,
       "phase": "alignment",
       "joint_positions": [
         0.31361314420314973,
@@ -13778,7 +14342,7 @@
       "reason": null
     },
     {
-      "frame": 293,
+      "frame": 305,
       "phase": "alignment",
       "joint_positions": [
         0.31359646767162963,
@@ -13825,7 +14389,7 @@
       "reason": null
     },
     {
-      "frame": 294,
+      "frame": 306,
       "phase": "alignment",
       "joint_positions": [
         0.31357852236315803,
@@ -13872,7 +14436,7 @@
       "reason": null
     },
     {
-      "frame": 295,
+      "frame": 307,
       "phase": "alignment",
       "joint_positions": [
         0.31356029718776157,
@@ -13919,7 +14483,7 @@
       "reason": null
     },
     {
-      "frame": 296,
+      "frame": 308,
       "phase": "alignment",
       "joint_positions": [
         0.3135420070549252,
@@ -13966,7 +14530,7 @@
       "reason": null
     },
     {
-      "frame": 297,
+      "frame": 309,
       "phase": "alignment",
       "joint_positions": [
         0.3135236081176719,
@@ -14013,7 +14577,7 @@
       "reason": null
     },
     {
-      "frame": 298,
+      "frame": 310,
       "phase": "alignment",
       "joint_positions": [
         0.31350503119178846,
@@ -14060,7 +14624,7 @@
       "reason": null
     },
     {
-      "frame": 299,
+      "frame": 311,
       "phase": "alignment",
       "joint_positions": [
         0.31348625811222125,
@@ -14107,7 +14671,7 @@
       "reason": null
     },
     {
-      "frame": 300,
+      "frame": 312,
       "phase": "alignment",
       "joint_positions": [
         0.31346732210793943,
@@ -14154,7 +14718,7 @@
       "reason": null
     },
     {
-      "frame": 301,
+      "frame": 313,
       "phase": "alignment",
       "joint_positions": [
         0.31344828177492035,
@@ -14201,7 +14765,7 @@
       "reason": null
     },
     {
-      "frame": 302,
+      "frame": 314,
       "phase": "alignment",
       "joint_positions": [
         0.3134291951723229,
@@ -14248,7 +14812,7 @@
       "reason": null
     },
     {
-      "frame": 303,
+      "frame": 315,
       "phase": "alignment",
       "joint_positions": [
         0.3134101044590474,
@@ -14295,7 +14859,7 @@
       "reason": null
     },
     {
-      "frame": 304,
+      "frame": 316,
       "phase": "alignment",
       "joint_positions": [
         0.3133910317878908,
@@ -14342,7 +14906,7 @@
       "reason": null
     },
     {
-      "frame": 305,
+      "frame": 317,
       "phase": "alignment",
       "joint_positions": [
         0.3133719827665929,
@@ -14389,7 +14953,54 @@
       "reason": null
     },
     {
-      "frame": 306,
+      "frame": 318,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3133719827665929,
+        0.3973549676454932,
+        -0.27524658312413786,
+        -2.3772664799557317,
+        0.27745044062602275,
+        2.747480067536814,
+        2.143332291992104,
+        0.010000000937015734,
+        0.009999999215105894
+      ],
+      "peg_pose": [
+        -0.9999935827130003,
+        -0.00020353247739210453,
+        0.057561696963502676,
+        -5.344609922300248e-7,
+        4.014296522174129e-7,
+        0.007169797989177546,
+        0.9999742966678432
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20363361934072635,
+      "yaw_error_deg": 0.821605367103416,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 2.438303036497322,
+      "contact_count": 21,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02398082381407488,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 319,
       "phase": "alignment",
       "joint_positions": [
         0.31336779341671855,
@@ -14436,7 +15047,7 @@
       "reason": null
     },
     {
-      "frame": 307,
+      "frame": 320,
       "phase": "alignment",
       "joint_positions": [
         0.31335505732372776,
@@ -14483,7 +15094,7 @@
       "reason": null
     },
     {
-      "frame": 308,
+      "frame": 321,
       "phase": "alignment",
       "joint_positions": [
         0.3133383677523484,
@@ -14530,7 +15141,7 @@
       "reason": null
     },
     {
-      "frame": 309,
+      "frame": 322,
       "phase": "alignment",
       "joint_positions": [
         0.31332040736908545,
@@ -14577,7 +15188,7 @@
       "reason": null
     },
     {
-      "frame": 310,
+      "frame": 323,
       "phase": "alignment",
       "joint_positions": [
         0.31330216466144273,
@@ -14624,7 +15235,7 @@
       "reason": null
     },
     {
-      "frame": 311,
+      "frame": 324,
       "phase": "alignment",
       "joint_positions": [
         0.3132838549150583,
@@ -14671,7 +15282,7 @@
       "reason": null
     },
     {
-      "frame": 312,
+      "frame": 325,
       "phase": "alignment",
       "joint_positions": [
         0.3132654350878133,
@@ -14718,7 +15329,7 @@
       "reason": null
     },
     {
-      "frame": 313,
+      "frame": 326,
       "phase": "alignment",
       "joint_positions": [
         0.3132468368525386,
@@ -14765,7 +15376,7 @@
       "reason": null
     },
     {
-      "frame": 314,
+      "frame": 327,
       "phase": "alignment",
       "joint_positions": [
         0.3132280426849399,
@@ -14812,7 +15423,7 @@
       "reason": null
     },
     {
-      "frame": 315,
+      "frame": 328,
       "phase": "alignment",
       "joint_positions": [
         0.31320908612962634,
@@ -14859,7 +15470,7 @@
       "reason": null
     },
     {
-      "frame": 316,
+      "frame": 329,
       "phase": "alignment",
       "joint_positions": [
         0.31319002580443767,
@@ -14906,7 +15517,7 @@
       "reason": null
     },
     {
-      "frame": 317,
+      "frame": 330,
       "phase": "alignment",
       "joint_positions": [
         0.3131709196069695,
@@ -14953,7 +15564,7 @@
       "reason": null
     },
     {
-      "frame": 318,
+      "frame": 331,
       "phase": "alignment",
       "joint_positions": [
         0.3131518094751017,
@@ -15000,7 +15611,7 @@
       "reason": null
     },
     {
-      "frame": 319,
+      "frame": 332,
       "phase": "alignment",
       "joint_positions": [
         0.3131327173739095,
@@ -15047,7 +15658,7 @@
       "reason": null
     },
     {
-      "frame": 320,
+      "frame": 333,
       "phase": "alignment",
       "joint_positions": [
         0.31311364880135906,
@@ -15094,7 +15705,54 @@
       "reason": null
     },
     {
-      "frame": 321,
+      "frame": 334,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31311364880135906,
+        0.3979609938433723,
+        -0.2749071578617576,
+        -2.3771272230223275,
+        0.2778337578486834,
+        2.747938917592118,
+        2.143047623903315,
+        0.010000000932181648,
+        0.009999999219902335
+      ],
+      "peg_pose": [
+        -0.9999936031300171,
+        -0.00020352565383892143,
+        0.057335677508371756,
+        -5.75749199675952e-7,
+        4.3338760725364904e-7,
+        0.007169776420021363,
+        0.9999742968224571
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2036261567582591,
+      "yaw_error_deg": 0.8216028954002752,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 2.664322491628242,
+      "contact_count": 21,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023980554531399155,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 335,
       "phase": "alignment",
       "joint_positions": [
         0.3131094501380313,
@@ -15141,7 +15799,7 @@
       "reason": null
     },
     {
-      "frame": 322,
+      "frame": 336,
       "phase": "alignment",
       "joint_positions": [
         0.313096702082964,
@@ -15188,7 +15846,7 @@
       "reason": null
     },
     {
-      "frame": 323,
+      "frame": 337,
       "phase": "alignment",
       "joint_positions": [
         0.3130799997500568,
@@ -15235,7 +15893,7 @@
       "reason": null
     },
     {
-      "frame": 324,
+      "frame": 338,
       "phase": "alignment",
       "joint_positions": [
         0.31306202447576537,
@@ -15282,7 +15940,7 @@
       "reason": null
     },
     {
-      "frame": 325,
+      "frame": 339,
       "phase": "alignment",
       "joint_positions": [
         0.31304376435913406,
@@ -15329,7 +15987,7 @@
       "reason": null
     },
     {
-      "frame": 326,
+      "frame": 340,
       "phase": "alignment",
       "joint_positions": [
         0.31302543511163167,
@@ -15376,7 +16034,7 @@
       "reason": null
     },
     {
-      "frame": 327,
+      "frame": 341,
       "phase": "alignment",
       "joint_positions": [
         0.3130069945320499,
@@ -15423,7 +16081,7 @@
       "reason": null
     },
     {
-      "frame": 328,
+      "frame": 342,
       "phase": "alignment",
       "joint_positions": [
         0.31298837516452427,
@@ -15470,7 +16128,7 @@
       "reason": null
     },
     {
-      "frame": 329,
+      "frame": 343,
       "phase": "alignment",
       "joint_positions": [
         0.3129695601221376,
@@ -15517,7 +16175,7 @@
       "reason": null
     },
     {
-      "frame": 330,
+      "frame": 344,
       "phase": "alignment",
       "joint_positions": [
         0.3129505832527254,
@@ -15564,7 +16222,7 @@
       "reason": null
     },
     {
-      "frame": 331,
+      "frame": 345,
       "phase": "alignment",
       "joint_positions": [
         0.31293150318238705,
@@ -15611,7 +16269,7 @@
       "reason": null
     },
     {
-      "frame": 332,
+      "frame": 346,
       "phase": "alignment",
       "joint_positions": [
         0.3129123776370905,
@@ -15658,7 +16316,7 @@
       "reason": null
     },
     {
-      "frame": 333,
+      "frame": 347,
       "phase": "alignment",
       "joint_positions": [
         0.3128932483286257,
@@ -15705,7 +16363,7 @@
       "reason": null
     },
     {
-      "frame": 334,
+      "frame": 348,
       "phase": "alignment",
       "joint_positions": [
         0.3128741370334813,
@@ -15752,7 +16410,7 @@
       "reason": null
     },
     {
-      "frame": 335,
+      "frame": 349,
       "phase": "alignment",
       "joint_positions": [
         0.31285504914143253,
@@ -15799,7 +16457,54 @@
       "reason": null
     },
     {
-      "frame": 336,
+      "frame": 350,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31285504914143253,
+        0.3985671073797483,
+        -0.27456752712381255,
+        -2.376987542538583,
+        0.27821655689251873,
+        2.7483975823506666,
+        2.142763257398638,
+        0.010000000927099177,
+        0.00999999922493426
+      ],
+      "peg_pose": [
+        -0.9999936234495761,
+        -0.00020351060090091858,
+        0.05710965571490421,
+        -6.053432575890045e-7,
+        4.649753671608959e-7,
+        0.007169755626174529,
+        0.9999742969715163
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2036104738817764,
+      "yaw_error_deg": 0.8216005125431138,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 2.8903442850957903,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397821986696111,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 351,
       "phase": "alignment",
       "joint_positions": [
         0.31285084016532905,
@@ -15846,7 +16551,7 @@
       "reason": null
     },
     {
-      "frame": 337,
+      "frame": 352,
       "phase": "alignment",
       "joint_positions": [
         0.31283807887378356,
@@ -15893,7 +16598,7 @@
       "reason": null
     },
     {
-      "frame": 338,
+      "frame": 353,
       "phase": "alignment",
       "joint_positions": [
         0.31282136247076536,
@@ -15940,7 +16645,7 @@
       "reason": null
     },
     {
-      "frame": 339,
+      "frame": 354,
       "phase": "alignment",
       "joint_positions": [
         0.31280337098695676,
@@ -15987,7 +16692,7 @@
       "reason": null
     },
     {
-      "frame": 340,
+      "frame": 355,
       "phase": "alignment",
       "joint_positions": [
         0.31278509209475086,
@@ -16034,7 +16739,7 @@
       "reason": null
     },
     {
-      "frame": 341,
+      "frame": 356,
       "phase": "alignment",
       "joint_positions": [
         0.3127667418988509,
@@ -16081,7 +16786,7 @@
       "reason": null
     },
     {
-      "frame": 342,
+      "frame": 357,
       "phase": "alignment",
       "joint_positions": [
         0.31274827903208924,
@@ -16128,7 +16833,7 @@
       "reason": null
     },
     {
-      "frame": 343,
+      "frame": 358,
       "phase": "alignment",
       "joint_positions": [
         0.3127296369247081,
@@ -16175,7 +16880,7 @@
       "reason": null
     },
     {
-      "frame": 344,
+      "frame": 359,
       "phase": "alignment",
       "joint_positions": [
         0.312710799351873,
@@ -16222,7 +16927,7 @@
       "reason": null
     },
     {
-      "frame": 345,
+      "frame": 360,
       "phase": "alignment",
       "joint_positions": [
         0.3126918004888162,
@@ -16269,7 +16974,7 @@
       "reason": null
     },
     {
-      "frame": 346,
+      "frame": 361,
       "phase": "alignment",
       "joint_positions": [
         0.312672698987697,
@@ -16316,7 +17021,7 @@
       "reason": null
     },
     {
-      "frame": 347,
+      "frame": 362,
       "phase": "alignment",
       "joint_positions": [
         0.31265355241286025,
@@ -16363,7 +17068,7 @@
       "reason": null
     },
     {
-      "frame": 348,
+      "frame": 363,
       "phase": "alignment",
       "joint_positions": [
         0.3126344022535701,
@@ -16410,7 +17115,7 @@
       "reason": null
     },
     {
-      "frame": 349,
+      "frame": 364,
       "phase": "alignment",
       "joint_positions": [
         0.31261527009725815,
@@ -16457,7 +17162,7 @@
       "reason": null
     },
     {
-      "frame": 350,
+      "frame": 365,
       "phase": "alignment",
       "joint_positions": [
         0.3125961612232668,
@@ -16504,7 +17209,54 @@
       "reason": null
     },
     {
-      "frame": 351,
+      "frame": 366,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3125961612232668,
+        0.39917329945785424,
+        -0.27422765739974364,
+        -2.376847438054331,
+        0.2785988778470378,
+        2.748856055188101,
+        2.1424791651697404,
+        0.010000000922286513,
+        0.00999999922970967
+      ],
+      "peg_pose": [
+        -0.9999936437513804,
+        -0.000203496336550401,
+        0.056883633227660435,
+        -6.396170108191808e-7,
+        4.969571159979542e-7,
+        0.007169734936486148,
+        0.9999742971198232
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20359558169554579,
+      "yaw_error_deg": 0.8215981416220473,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 3.1163667723395627,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023977525593980996,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 367,
       "phase": "alignment",
       "joint_positions": [
         0.3125919425382924,
@@ -16551,7 +17303,7 @@
       "reason": null
     },
     {
-      "frame": 352,
+      "frame": 368,
       "phase": "alignment",
       "joint_positions": [
         0.3125791687880794,
@@ -16598,7 +17350,7 @@
       "reason": null
     },
     {
-      "frame": 353,
+      "frame": 369,
       "phase": "alignment",
       "joint_positions": [
         0.3125624391902168,
@@ -16645,7 +17397,7 @@
       "reason": null
     },
     {
-      "frame": 354,
+      "frame": 370,
       "phase": "alignment",
       "joint_positions": [
         0.3125444324530232,
@@ -16692,7 +17444,7 @@
       "reason": null
     },
     {
-      "frame": 355,
+      "frame": 371,
       "phase": "alignment",
       "joint_positions": [
         0.3125261358205306,
@@ -16739,7 +17491,7 @@
       "reason": null
     },
     {
-      "frame": 356,
+      "frame": 372,
       "phase": "alignment",
       "joint_positions": [
         0.3125077657823539,
@@ -16786,7 +17538,7 @@
       "reason": null
     },
     {
-      "frame": 357,
+      "frame": 373,
       "phase": "alignment",
       "joint_positions": [
         0.3124892817879343,
@@ -16833,7 +17585,7 @@
       "reason": null
     },
     {
-      "frame": 358,
+      "frame": 374,
       "phase": "alignment",
       "joint_positions": [
         0.31247061813223587,
@@ -16880,7 +17632,7 @@
       "reason": null
     },
     {
-      "frame": 359,
+      "frame": 375,
       "phase": "alignment",
       "joint_positions": [
         0.31245175923316204,
@@ -16927,7 +17679,7 @@
       "reason": null
     },
     {
-      "frame": 360,
+      "frame": 376,
       "phase": "alignment",
       "joint_positions": [
         0.3124327395798046,
@@ -16974,7 +17726,7 @@
       "reason": null
     },
     {
-      "frame": 361,
+      "frame": 377,
       "phase": "alignment",
       "joint_positions": [
         0.3124136178435841,
@@ -17021,7 +17773,7 @@
       "reason": null
     },
     {
-      "frame": 362,
+      "frame": 378,
       "phase": "alignment",
       "joint_positions": [
         0.3123944514259716,
@@ -17068,7 +17820,7 @@
       "reason": null
     },
     {
-      "frame": 363,
+      "frame": 379,
       "phase": "alignment",
       "joint_positions": [
         0.3123752815958259,
@@ -17115,7 +17867,7 @@
       "reason": null
     },
     {
-      "frame": 364,
+      "frame": 380,
       "phase": "alignment",
       "joint_positions": [
         0.31235612975484783,
@@ -17162,7 +17914,7 @@
       "reason": null
     },
     {
-      "frame": 365,
+      "frame": 381,
       "phase": "alignment",
       "joint_positions": [
         0.3123370010749263,
@@ -17209,7 +17961,54 @@
       "reason": null
     },
     {
-      "frame": 366,
+      "frame": 382,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3123370010749263,
+        0.39977956523351954,
+        -0.27388756462990105,
+        -2.376706911137095,
+        0.27898070242009093,
+        2.7493143305518086,
+        2.14219536608733,
+        0.010000000917431667,
+        0.009999999234521282
+      ],
+      "peg_pose": [
+        -0.999993663853993,
+        -0.00020348284625037314,
+        0.05665761224490296,
+        -6.74092040701444e-7,
+        5.28334867789837e-7,
+        0.007169713946754907,
+        0.999974297270279
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20358147131891632,
+      "yaw_error_deg": 0.8215957363180451,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 3.3423877550970356,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023979029463692684,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 383,
       "phase": "alignment",
       "joint_positions": [
         0.31233277262871384,
@@ -17256,7 +18055,7 @@
       "reason": null
     },
     {
-      "frame": 367,
+      "frame": 384,
       "phase": "alignment",
       "joint_positions": [
         0.3123199861321198,
@@ -17303,7 +18102,7 @@
       "reason": null
     },
     {
-      "frame": 368,
+      "frame": 385,
       "phase": "alignment",
       "joint_positions": [
         0.31230324290719075,
@@ -17350,7 +18149,7 @@
       "reason": null
     },
     {
-      "frame": 369,
+      "frame": 386,
       "phase": "alignment",
       "joint_positions": [
         0.3122852204093228,
@@ -17397,7 +18196,7 @@
       "reason": null
     },
     {
-      "frame": 370,
+      "frame": 387,
       "phase": "alignment",
       "joint_positions": [
         0.31226690550225505,
@@ -17444,7 +18243,7 @@
       "reason": null
     },
     {
-      "frame": 371,
+      "frame": 388,
       "phase": "alignment",
       "joint_positions": [
         0.31224851508870866,
@@ -17491,7 +18290,7 @@
       "reason": null
     },
     {
-      "frame": 372,
+      "frame": 389,
       "phase": "alignment",
       "joint_positions": [
         0.3122300094464142,
@@ -17538,7 +18337,7 @@
       "reason": null
     },
     {
-      "frame": 373,
+      "frame": 390,
       "phase": "alignment",
       "joint_positions": [
         0.3122113237354508,
@@ -17585,7 +18384,7 @@
       "reason": null
     },
     {
-      "frame": 374,
+      "frame": 391,
       "phase": "alignment",
       "joint_positions": [
         0.31219244301121535,
@@ -17632,7 +18431,7 @@
       "reason": null
     },
     {
-      "frame": 375,
+      "frame": 392,
       "phase": "alignment",
       "joint_positions": [
         0.31217340207037636,
@@ -17679,7 +18478,7 @@
       "reason": null
     },
     {
-      "frame": 376,
+      "frame": 393,
       "phase": "alignment",
       "joint_positions": [
         0.3121542595990584,
@@ -17726,7 +18525,7 @@
       "reason": null
     },
     {
-      "frame": 377,
+      "frame": 394,
       "phase": "alignment",
       "joint_positions": [
         0.3121350728339499,
@@ -17773,7 +18572,7 @@
       "reason": null
     },
     {
-      "frame": 378,
+      "frame": 395,
       "phase": "alignment",
       "joint_positions": [
         0.3121158828238526,
@@ -17820,7 +18619,7 @@
       "reason": null
     },
     {
-      "frame": 379,
+      "frame": 396,
       "phase": "alignment",
       "joint_positions": [
         0.31209671078634027,
@@ -17867,7 +18666,7 @@
       "reason": null
     },
     {
-      "frame": 380,
+      "frame": 397,
       "phase": "alignment",
       "joint_positions": [
         0.3120775617876896,
@@ -17914,7 +18713,54 @@
       "reason": null
     },
     {
-      "frame": 381,
+      "frame": 398,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3120775617876896,
+        0.40038590667579105,
+        -0.2735472423472929,
+        -2.3765659608569676,
+        0.279362039352719,
+        2.7497724104735344,
+        2.1419118509143225,
+        0.010000000912508996,
+        0.009999999239396455
+      ],
+      "peg_pose": [
+        -0.9999936839648087,
+        -0.00020347051518301469,
+        0.05643159180910781,
+        -7.117662563651332e-7,
+        5.595663106782684e-7,
+        0.007169692807929887,
+        0.9999742974217989
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20356852126342903,
+      "yaw_error_deg": 0.8215933139291565,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 3.5684081908921863,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023979575808479557,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 399,
       "phase": "alignment",
       "joint_positions": [
         0.3120733237743837,
@@ -17961,7 +18807,7 @@
       "reason": null
     },
     {
-      "frame": 382,
+      "frame": 400,
       "phase": "alignment",
       "joint_positions": [
         0.31206052493242437,
@@ -18008,7 +18854,7 @@
       "reason": null
     },
     {
-      "frame": 383,
+      "frame": 401,
       "phase": "alignment",
       "joint_positions": [
         0.3120437685357906,
@@ -18055,7 +18901,7 @@
       "reason": null
     },
     {
-      "frame": 384,
+      "frame": 402,
       "phase": "alignment",
       "joint_positions": [
         0.3120257307404249,
@@ -18102,7 +18948,7 @@
       "reason": null
     },
     {
-      "frame": 385,
+      "frame": 403,
       "phase": "alignment",
       "joint_positions": [
         0.3120073980237329,
@@ -18149,7 +18995,7 @@
       "reason": null
     },
     {
-      "frame": 386,
+      "frame": 404,
       "phase": "alignment",
       "joint_positions": [
         0.31198898770919825,
@@ -18196,7 +19042,7 @@
       "reason": null
     },
     {
-      "frame": 387,
+      "frame": 405,
       "phase": "alignment",
       "joint_positions": [
         0.3119704609099181,
@@ -18243,7 +19089,7 @@
       "reason": null
     },
     {
-      "frame": 388,
+      "frame": 406,
       "phase": "alignment",
       "joint_positions": [
         0.31195175365245936,
@@ -18290,7 +19136,7 @@
       "reason": null
     },
     {
-      "frame": 389,
+      "frame": 407,
       "phase": "alignment",
       "joint_positions": [
         0.31193285162591117,
@@ -18337,7 +19183,7 @@
       "reason": null
     },
     {
-      "frame": 390,
+      "frame": 408,
       "phase": "alignment",
       "joint_positions": [
         0.31191378992837704,
@@ -18384,7 +19230,7 @@
       "reason": null
     },
     {
-      "frame": 391,
+      "frame": 409,
       "phase": "alignment",
       "joint_positions": [
         0.3118946272549827,
@@ -18431,7 +19277,7 @@
       "reason": null
     },
     {
-      "frame": 392,
+      "frame": 410,
       "phase": "alignment",
       "joint_positions": [
         0.3118754206739612,
@@ -18478,7 +19324,7 @@
       "reason": null
     },
     {
-      "frame": 393,
+      "frame": 411,
       "phase": "alignment",
       "joint_positions": [
         0.311856211012697,
@@ -18525,7 +19371,7 @@
       "reason": null
     },
     {
-      "frame": 394,
+      "frame": 412,
       "phase": "alignment",
       "joint_positions": [
         0.311837019304989,
@@ -18572,7 +19418,7 @@
       "reason": null
     },
     {
-      "frame": 395,
+      "frame": 413,
       "phase": "alignment",
       "joint_positions": [
         0.31181785051265565,
@@ -18619,7 +19465,54 @@
       "reason": null
     },
     {
-      "frame": 396,
+      "frame": 414,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31181785051265565,
+        0.4009923341451008,
+        -0.2732067028118815,
+        -2.376424585798175,
+        0.2797428749311754,
+        2.750230304404304,
+        2.1416286265021425,
+        0.010000000907507628,
+        0.00999999924434515
+      ],
+      "peg_pose": [
+        -0.9999937045029402,
+        -0.00020345522721622124,
+        0.056205568886617124,
+        -7.459498469271756e-7,
+        5.911919948162661e-7,
+        0.007169672432872788,
+        0.9999742975678422
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2035526044167301,
+      "yaw_error_deg": 0.8215909790640126,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 3.794431113382873,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023977091179381696,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 415,
       "phase": "alignment",
       "joint_positions": [
         0.3118136027694196,
@@ -18666,7 +19559,7 @@
       "reason": null
     },
     {
-      "frame": 397,
+      "frame": 416,
       "phase": "alignment",
       "joint_positions": [
         0.3118007915738936,
@@ -18713,7 +19606,7 @@
       "reason": null
     },
     {
-      "frame": 398,
+      "frame": 417,
       "phase": "alignment",
       "joint_positions": [
         0.3117840221248604,
@@ -18760,7 +19653,7 @@
       "reason": null
     },
     {
-      "frame": 399,
+      "frame": 418,
       "phase": "alignment",
       "joint_positions": [
         0.31176596922320154,
@@ -18807,7 +19700,7 @@
       "reason": null
     },
     {
-      "frame": 400,
+      "frame": 419,
       "phase": "alignment",
       "joint_positions": [
         0.3117476189106133,
@@ -18854,7 +19747,7 @@
       "reason": null
     },
     {
-      "frame": 401,
+      "frame": 420,
       "phase": "alignment",
       "joint_positions": [
         0.31172918889972256,
@@ -18901,7 +19794,7 @@
       "reason": null
     },
     {
-      "frame": 402,
+      "frame": 421,
       "phase": "alignment",
       "joint_positions": [
         0.3117106411254754,
@@ -18948,7 +19841,7 @@
       "reason": null
     },
     {
-      "frame": 403,
+      "frame": 422,
       "phase": "alignment",
       "joint_positions": [
         0.3116919124801929,
@@ -18995,7 +19888,7 @@
       "reason": null
     },
     {
-      "frame": 404,
+      "frame": 423,
       "phase": "alignment",
       "joint_positions": [
         0.3116729892923589,
@@ -19042,7 +19935,7 @@
       "reason": null
     },
     {
-      "frame": 405,
+      "frame": 424,
       "phase": "alignment",
       "joint_positions": [
         0.31165390696877915,
@@ -19089,7 +19982,7 @@
       "reason": null
     },
     {
-      "frame": 406,
+      "frame": 425,
       "phase": "alignment",
       "joint_positions": [
         0.3116347242196904,
@@ -19136,7 +20029,7 @@
       "reason": null
     },
     {
-      "frame": 407,
+      "frame": 426,
       "phase": "alignment",
       "joint_positions": [
         0.3116154979488819,
@@ -19183,7 +20076,7 @@
       "reason": null
     },
     {
-      "frame": 408,
+      "frame": 427,
       "phase": "alignment",
       "joint_positions": [
         0.31159626876435237,
@@ -19230,7 +20123,7 @@
       "reason": null
     },
     {
-      "frame": 409,
+      "frame": 428,
       "phase": "alignment",
       "joint_positions": [
         0.3115770575167308,
@@ -19277,7 +20170,7 @@
       "reason": null
     },
     {
-      "frame": 410,
+      "frame": 429,
       "phase": "alignment",
       "joint_positions": [
         0.3115578690631504,
@@ -19324,7 +20217,54 @@
       "reason": null
     },
     {
-      "frame": 411,
+      "frame": 430,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3115578690631504,
+        0.4015988389911098,
+        -0.272865943792339,
+        -2.3762827879596773,
+        0.28012321270708707,
+        2.750688004880535,
+        2.141345695017104,
+        0.010000000902622609,
+        0.009999999249182106
+      ],
+      "peg_pose": [
+        -0.9999937250617489,
+        -0.00020344045730549075,
+        0.05597954610718678,
+        -7.80374923944932e-7,
+        6.22677992049085e-7,
+        0.007169651925643171,
+        0.9999742977148305
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20353720671838488,
+      "yaw_error_deg": 0.821588629052826,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 4.02045389281322,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023977233932643175,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 431,
       "phase": "alignment",
       "joint_positions": [
         0.311553611574759,
@@ -19371,7 +20311,7 @@
       "reason": null
     },
     {
-      "frame": 412,
+      "frame": 432,
       "phase": "alignment",
       "joint_positions": [
         0.31154078779924466,
@@ -19418,7 +20358,7 @@
       "reason": null
     },
     {
-      "frame": 413,
+      "frame": 433,
       "phase": "alignment",
       "joint_positions": [
         0.31152400503679095,
@@ -19465,7 +20405,7 @@
       "reason": null
     },
     {
-      "frame": 414,
+      "frame": 434,
       "phase": "alignment",
       "joint_positions": [
         0.31150593679671945,
@@ -19512,7 +20452,7 @@
       "reason": null
     },
     {
-      "frame": 415,
+      "frame": 435,
       "phase": "alignment",
       "joint_positions": [
         0.3114875686944788,
@@ -19559,7 +20499,7 @@
       "reason": null
     },
     {
-      "frame": 416,
+      "frame": 436,
       "phase": "alignment",
       "joint_positions": [
         0.31146911881805356,
@@ -19606,7 +20546,7 @@
       "reason": null
     },
     {
-      "frame": 417,
+      "frame": 437,
       "phase": "alignment",
       "joint_positions": [
         0.31145054990586873,
@@ -19653,7 +20593,7 @@
       "reason": null
     },
     {
-      "frame": 418,
+      "frame": 438,
       "phase": "alignment",
       "joint_positions": [
         0.31143179970216417,
@@ -19700,7 +20640,7 @@
       "reason": null
     },
     {
-      "frame": 419,
+      "frame": 439,
       "phase": "alignment",
       "joint_positions": [
         0.31141285516812345,
@@ -19747,7 +20687,7 @@
       "reason": null
     },
     {
-      "frame": 420,
+      "frame": 440,
       "phase": "alignment",
       "joint_positions": [
         0.3113937520187137,
@@ -19794,7 +20734,7 @@
       "reason": null
     },
     {
-      "frame": 421,
+      "frame": 441,
       "phase": "alignment",
       "joint_positions": [
         0.31137454898252837,
@@ -19841,7 +20781,7 @@
       "reason": null
     },
     {
-      "frame": 422,
+      "frame": 442,
       "phase": "alignment",
       "joint_positions": [
         0.31135530280356394,
@@ -19888,7 +20828,7 @@
       "reason": null
     },
     {
-      "frame": 423,
+      "frame": 443,
       "phase": "alignment",
       "joint_positions": [
         0.3113360538747571,
@@ -19935,7 +20875,7 @@
       "reason": null
     },
     {
-      "frame": 424,
+      "frame": 444,
       "phase": "alignment",
       "joint_positions": [
         0.31131682286664103,
@@ -19982,7 +20922,7 @@
       "reason": null
     },
     {
-      "frame": 425,
+      "frame": 445,
       "phase": "alignment",
       "joint_positions": [
         0.3112976145332629,
@@ -20029,7 +20969,54 @@
       "reason": null
     },
     {
-      "frame": 426,
+      "frame": 446,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3112976145332629,
+        0.4022054144023445,
+        -0.27252495487489853,
+        -2.3761405679954457,
+        0.28050306428079236,
+        2.7511455069210227,
+        2.141063051614101,
+        0.010000000897839971,
+        0.00999999925391867
+      ],
+      "peg_pose": [
+        -0.9999937457209287,
+        -0.00020343175145394167,
+        0.05575352536170441,
+        -8.213027731263543e-7,
+        6.54335024260765e-7,
+        0.007169631647081104,
+        0.9999742978601712
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2035278691145762,
+      "yaw_error_deg": 0.8215863052463419,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 4.24647463829559,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397926499738539,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 447,
       "phase": "alignment",
       "joint_positions": [
         0.3112933480386078,
@@ -20076,7 +21063,7 @@
       "reason": null
     },
     {
-      "frame": 427,
+      "frame": 448,
       "phase": "alignment",
       "joint_positions": [
         0.31128051257243183,
@@ -20123,7 +21110,7 @@
       "reason": null
     },
     {
-      "frame": 428,
+      "frame": 449,
       "phase": "alignment",
       "joint_positions": [
         0.31126371727242613,
@@ -20170,7 +21157,7 @@
       "reason": null
     },
     {
-      "frame": 429,
+      "frame": 450,
       "phase": "alignment",
       "joint_positions": [
         0.31124563435717034,
@@ -20217,7 +21204,7 @@
       "reason": null
     },
     {
-      "frame": 430,
+      "frame": 451,
       "phase": "alignment",
       "joint_positions": [
         0.31122724909869975,
@@ -20264,7 +21251,7 @@
       "reason": null
     },
     {
-      "frame": 431,
+      "frame": 452,
       "phase": "alignment",
       "joint_positions": [
         0.31120878003747793,
@@ -20311,7 +21298,7 @@
       "reason": null
     },
     {
-      "frame": 432,
+      "frame": 453,
       "phase": "alignment",
       "joint_positions": [
         0.31119019075387877,
@@ -20358,7 +21345,7 @@
       "reason": null
     },
     {
-      "frame": 433,
+      "frame": 454,
       "phase": "alignment",
       "joint_positions": [
         0.311171419844261,
@@ -20405,7 +21392,7 @@
       "reason": null
     },
     {
-      "frame": 434,
+      "frame": 455,
       "phase": "alignment",
       "joint_positions": [
         0.31115245487944715,
@@ -20452,7 +21439,7 @@
       "reason": null
     },
     {
-      "frame": 435,
+      "frame": 456,
       "phase": "alignment",
       "joint_positions": [
         0.31113333185285497,
@@ -20499,7 +21486,7 @@
       "reason": null
     },
     {
-      "frame": 436,
+      "frame": 457,
       "phase": "alignment",
       "joint_positions": [
         0.31111410948663276,
@@ -20546,7 +21533,7 @@
       "reason": null
     },
     {
-      "frame": 437,
+      "frame": 458,
       "phase": "alignment",
       "joint_positions": [
         0.3110948443500277,
@@ -20593,7 +21580,7 @@
       "reason": null
     },
     {
-      "frame": 438,
+      "frame": 459,
       "phase": "alignment",
       "joint_positions": [
         0.31107557661552887,
@@ -20640,7 +21627,7 @@
       "reason": null
     },
     {
-      "frame": 439,
+      "frame": 460,
       "phase": "alignment",
       "joint_positions": [
         0.3110563267747353,
@@ -20687,7 +21674,7 @@
       "reason": null
     },
     {
-      "frame": 440,
+      "frame": 461,
       "phase": "alignment",
       "joint_positions": [
         0.31103709948274005,
@@ -20734,7 +21721,54 @@
       "reason": null
     },
     {
-      "frame": 441,
+      "frame": 462,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31103709948274005,
+        0.4028120712714009,
+        -0.2721837649057248,
+        -2.375997926560941,
+        0.2808823995977846,
+        2.7516028199197766,
+        2.1407807106215366,
+        0.010000000892652978,
+        0.009999999259040205
+      ],
+      "peg_pose": [
+        -0.99999376619047,
+        -0.00020341818686963323,
+        0.05552750372958961,
+        -8.557725578495961e-7,
+        6.857264018106678e-7,
+        0.007169611298728884,
+        0.999974298006015
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20351368290752742,
+      "yaw_error_deg": 0.821583973442273,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 4.472496270410388,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023978380459033315,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 463,
       "phase": "alignment",
       "joint_positions": [
         0.3110328230699851,
@@ -20781,7 +21815,7 @@
       "reason": null
     },
     {
-      "frame": 442,
+      "frame": 464,
       "phase": "alignment",
       "joint_positions": [
         0.3110199750766381,
@@ -20828,7 +21862,7 @@
       "reason": null
     },
     {
-      "frame": 443,
+      "frame": 465,
       "phase": "alignment",
       "joint_positions": [
         0.31100316660461397,
@@ -20875,7 +21909,7 @@
       "reason": null
     },
     {
-      "frame": 444,
+      "frame": 466,
       "phase": "alignment",
       "joint_positions": [
         0.3109850685063715,
@@ -20922,7 +21956,7 @@
       "reason": null
     },
     {
-      "frame": 445,
+      "frame": 467,
       "phase": "alignment",
       "joint_positions": [
         0.31096666559437763,
@@ -20969,7 +22003,7 @@
       "reason": null
     },
     {
-      "frame": 446,
+      "frame": 468,
       "phase": "alignment",
       "joint_positions": [
         0.31094817677907216,
@@ -21016,7 +22050,7 @@
       "reason": null
     },
     {
-      "frame": 447,
+      "frame": 469,
       "phase": "alignment",
       "joint_positions": [
         0.31092956645195513,
@@ -21063,7 +22097,7 @@
       "reason": null
     },
     {
-      "frame": 448,
+      "frame": 470,
       "phase": "alignment",
       "joint_positions": [
         0.310910774070938,
@@ -21110,7 +22144,7 @@
       "reason": null
     },
     {
-      "frame": 449,
+      "frame": 471,
       "phase": "alignment",
       "joint_positions": [
         0.3108917878458635,
@@ -21157,7 +22191,7 @@
       "reason": null
     },
     {
-      "frame": 450,
+      "frame": 472,
       "phase": "alignment",
       "joint_positions": [
         0.31087264408056675,
@@ -21204,7 +22238,7 @@
       "reason": null
     },
     {
-      "frame": 451,
+      "frame": 473,
       "phase": "alignment",
       "joint_positions": [
         0.31085340151526475,
@@ -21251,7 +22285,7 @@
       "reason": null
     },
     {
-      "frame": 452,
+      "frame": 474,
       "phase": "alignment",
       "joint_positions": [
         0.3108341165584301,
@@ -21298,7 +22332,7 @@
       "reason": null
     },
     {
-      "frame": 453,
+      "frame": 475,
       "phase": "alignment",
       "joint_positions": [
         0.310814829166963,
@@ -21345,7 +22379,7 @@
       "reason": null
     },
     {
-      "frame": 454,
+      "frame": 476,
       "phase": "alignment",
       "joint_positions": [
         0.3107955596525675,
@@ -21392,7 +22426,7 @@
       "reason": null
     },
     {
-      "frame": 455,
+      "frame": 477,
       "phase": "alignment",
       "joint_positions": [
         0.3107763125678801,
@@ -21439,7 +22473,54 @@
       "reason": null
     },
     {
-      "frame": 456,
+      "frame": 478,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3107763125678801,
+        0.40341880375108585,
+        -0.27184234882725405,
+        -2.3758548609294587,
+        0.28126124647092093,
+        2.7520599370981684,
+        2.1404986580192378,
+        0.010000000887877768,
+        0.00999999926376707
+      ],
+      "peg_pose": [
+        -0.999993787248083,
+        -0.00020340953806499996,
+        0.05530148262702836,
+        -8.959243419550173e-7,
+        7.172814151500237e-7,
+        0.0071695910282071375,
+        0.999974298151293
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20350439420857544,
+      "yaw_error_deg": 0.8215816505576754,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 4.698517372971639,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397890824459938,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 479,
       "phase": "alignment",
       "joint_positions": [
         0.31077202717401853,
@@ -21486,7 +22567,7 @@
       "reason": null
     },
     {
-      "frame": 457,
+      "frame": 480,
       "phase": "alignment",
       "joint_positions": [
         0.31075916767568074,
@@ -21533,7 +22614,7 @@
       "reason": null
     },
     {
-      "frame": 458,
+      "frame": 481,
       "phase": "alignment",
       "joint_positions": [
         0.31074234692269886,
@@ -21580,7 +22661,7 @@
       "reason": null
     },
     {
-      "frame": 459,
+      "frame": 482,
       "phase": "alignment",
       "joint_positions": [
         0.3107242344325965,
@@ -21627,7 +22708,7 @@
       "reason": null
     },
     {
-      "frame": 460,
+      "frame": 483,
       "phase": "alignment",
       "joint_positions": [
         0.31070581465697233,
@@ -21674,7 +22755,7 @@
       "reason": null
     },
     {
-      "frame": 461,
+      "frame": 484,
       "phase": "alignment",
       "joint_positions": [
         0.3106873069544883,
@@ -21721,7 +22802,7 @@
       "reason": null
     },
     {
-      "frame": 462,
+      "frame": 485,
       "phase": "alignment",
       "joint_positions": [
         0.31066867655835917,
@@ -21768,7 +22849,7 @@
       "reason": null
     },
     {
-      "frame": 463,
+      "frame": 486,
       "phase": "alignment",
       "joint_positions": [
         0.3106498637777514,
@@ -21815,7 +22896,7 @@
       "reason": null
     },
     {
-      "frame": 464,
+      "frame": 487,
       "phase": "alignment",
       "joint_positions": [
         0.3106308574297012,
@@ -21862,7 +22943,7 @@
       "reason": null
     },
     {
-      "frame": 465,
+      "frame": 488,
       "phase": "alignment",
       "joint_positions": [
         0.31061169409351136,
@@ -21909,7 +22990,7 @@
       "reason": null
     },
     {
-      "frame": 466,
+      "frame": 489,
       "phase": "alignment",
       "joint_positions": [
         0.31059243250082363,
@@ -21956,7 +23037,7 @@
       "reason": null
     },
     {
-      "frame": 467,
+      "frame": 490,
       "phase": "alignment",
       "joint_positions": [
         0.3105731288848309,
@@ -22003,7 +23084,7 @@
       "reason": null
     },
     {
-      "frame": 468,
+      "frame": 491,
       "phase": "alignment",
       "joint_positions": [
         0.3105538229829399,
@@ -22050,7 +23131,7 @@
       "reason": null
     },
     {
-      "frame": 469,
+      "frame": 492,
       "phase": "alignment",
       "joint_positions": [
         0.31053453492966837,
@@ -22097,7 +23178,7 @@
       "reason": null
     },
     {
-      "frame": 470,
+      "frame": 493,
       "phase": "alignment",
       "joint_positions": [
         0.31051526918043293,
@@ -22144,7 +23225,54 @@
       "reason": null
     },
     {
-      "frame": 471,
+      "frame": 494,
+      "phase": "insertion",
+      "joint_positions": [
+        0.31051526918043293,
+        0.40402561245937463,
+        -0.2715007363380634,
+        -2.375711376852082,
+        0.2816395740725301,
+        2.7525168618061087,
+        2.140216911046772,
+        0.010000000882678635,
+        0.009999999268899606
+      ],
+      "peg_pose": [
+        -0.9999938073536848,
+        -0.0002033966174979551,
+        0.055075462012963296,
+        -9.305176490974258e-7,
+        7.480004551088544e-7,
+        0.007169570206743241,
+        0.999974298300524
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20349086681714834,
+      "yaw_error_deg": 0.8215792645381157,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 4.924537987036702,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023979397844669438,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 495,
       "phase": "alignment",
       "joint_positions": [
         0.3105109743091485,
@@ -22191,7 +23319,7 @@
       "reason": null
     },
     {
-      "frame": 472,
+      "frame": 496,
       "phase": "alignment",
       "joint_positions": [
         0.3104981030612903,
@@ -22238,7 +23366,7 @@
       "reason": null
     },
     {
-      "frame": 473,
+      "frame": 497,
       "phase": "alignment",
       "joint_positions": [
         0.31048126997548803,
@@ -22285,7 +23413,7 @@
       "reason": null
     },
     {
-      "frame": 474,
+      "frame": 498,
       "phase": "alignment",
       "joint_positions": [
         0.3104631431331609,
@@ -22332,7 +23460,7 @@
       "reason": null
     },
     {
-      "frame": 475,
+      "frame": 499,
       "phase": "alignment",
       "joint_positions": [
         0.3104447065346085,
@@ -22379,7 +23507,7 @@
       "reason": null
     },
     {
-      "frame": 476,
+      "frame": 500,
       "phase": "alignment",
       "joint_positions": [
         0.3104261799354493,
@@ -22426,7 +23554,7 @@
       "reason": null
     },
     {
-      "frame": 477,
+      "frame": 501,
       "phase": "alignment",
       "joint_positions": [
         0.3104075293973881,
@@ -22473,7 +23601,7 @@
       "reason": null
     },
     {
-      "frame": 478,
+      "frame": 502,
       "phase": "alignment",
       "joint_positions": [
         0.31038869609176595,
@@ -22520,7 +23648,7 @@
       "reason": null
     },
     {
-      "frame": 479,
+      "frame": 503,
       "phase": "alignment",
       "joint_positions": [
         0.3103696694629464,
@@ -22567,7 +23695,7 @@
       "reason": null
     },
     {
-      "frame": 480,
+      "frame": 504,
       "phase": "alignment",
       "joint_positions": [
         0.31035048638464563,
@@ -22614,7 +23742,7 @@
       "reason": null
     },
     {
-      "frame": 481,
+      "frame": 505,
       "phase": "alignment",
       "joint_positions": [
         0.31033120559285776,
@@ -22661,7 +23789,7 @@
       "reason": null
     },
     {
-      "frame": 482,
+      "frame": 506,
       "phase": "alignment",
       "joint_positions": [
         0.31031188315181496,
@@ -22708,7 +23836,7 @@
       "reason": null
     },
     {
-      "frame": 483,
+      "frame": 507,
       "phase": "alignment",
       "joint_positions": [
         0.31029255858078536,
@@ -22755,7 +23883,7 @@
       "reason": null
     },
     {
-      "frame": 484,
+      "frame": 508,
       "phase": "alignment",
       "joint_positions": [
         0.31027325183571897,
@@ -22802,7 +23930,7 @@
       "reason": null
     },
     {
-      "frame": 485,
+      "frame": 509,
       "phase": "alignment",
       "joint_positions": [
         0.3102539672725342,
@@ -22849,7 +23977,54 @@
       "reason": null
     },
     {
-      "frame": 486,
+      "frame": 510,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3102539672725342,
+        0.4046325069519357,
+        -0.2711589212332242,
+        -2.3755674695485234,
+        0.2820173882372435,
+        2.752973602393962,
+        2.1399354648879374,
+        0.01000000087770669,
+        0.00999999927381178
+      ],
+      "peg_pose": [
+        -0.9999938280920867,
+        -0.00020338142204575946,
+        0.05484943905019407,
+        -9.602625975885626e-7,
+        7.796276638103938e-7,
+        0.007169550630292966,
+        0.9999742984408299
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2034750482998974,
+      "yaw_error_deg": 0.8215770211900519,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 5.150560949805927,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023977051014440108,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 511,
       "phase": "alignment",
       "joint_positions": [
         0.3102496626630356,
@@ -22896,7 +24071,7 @@
       "reason": null
     },
     {
-      "frame": 487,
+      "frame": 512,
       "phase": "alignment",
       "joint_positions": [
         0.3102367788757379,
@@ -22943,7 +24118,7 @@
       "reason": null
     },
     {
-      "frame": 488,
+      "frame": 513,
       "phase": "alignment",
       "joint_positions": [
         0.31021993237153206,
@@ -22990,7 +24165,7 @@
       "reason": null
     },
     {
-      "frame": 489,
+      "frame": 514,
       "phase": "alignment",
       "joint_positions": [
         0.31020178993778574,
@@ -23037,7 +24212,7 @@
       "reason": null
     },
     {
-      "frame": 490,
+      "frame": 515,
       "phase": "alignment",
       "joint_positions": [
         0.31018333521459984,
@@ -23084,7 +24259,7 @@
       "reason": null
     },
     {
-      "frame": 491,
+      "frame": 516,
       "phase": "alignment",
       "joint_positions": [
         0.31016478840535855,
@@ -23131,7 +24306,7 @@
       "reason": null
     },
     {
-      "frame": 492,
+      "frame": 517,
       "phase": "alignment",
       "joint_positions": [
         0.31014611642164014,
@@ -23178,7 +24353,7 @@
       "reason": null
     },
     {
-      "frame": 493,
+      "frame": 518,
       "phase": "alignment",
       "joint_positions": [
         0.31012726130007046,
@@ -23225,7 +24400,7 @@
       "reason": null
     },
     {
-      "frame": 494,
+      "frame": 519,
       "phase": "alignment",
       "joint_positions": [
         0.31010821310689557,
@@ -23272,7 +24447,7 @@
       "reason": null
     },
     {
-      "frame": 495,
+      "frame": 520,
       "phase": "alignment",
       "joint_positions": [
         0.3100890090031691,
@@ -23319,7 +24494,7 @@
       "reason": null
     },
     {
-      "frame": 496,
+      "frame": 521,
       "phase": "alignment",
       "joint_positions": [
         0.31006970772428116,
@@ -23366,7 +24541,7 @@
       "reason": null
     },
     {
-      "frame": 497,
+      "frame": 522,
       "phase": "alignment",
       "joint_positions": [
         0.31005036516374895,
@@ -23413,7 +24588,7 @@
       "reason": null
     },
     {
-      "frame": 498,
+      "frame": 523,
       "phase": "alignment",
       "joint_positions": [
         0.3100310206235478,
@@ -23460,7 +24635,7 @@
       "reason": null
     },
     {
-      "frame": 499,
+      "frame": 524,
       "phase": "alignment",
       "joint_positions": [
         0.31001169388322847,
@@ -23507,7 +24682,7 @@
       "reason": null
     },
     {
-      "frame": 500,
+      "frame": 525,
       "phase": "alignment",
       "joint_positions": [
         0.30999238920149585,
@@ -23554,7 +24729,54 @@
       "reason": null
     },
     {
-      "frame": 501,
+      "frame": 526,
+      "phase": "insertion",
+      "joint_positions": [
+        0.30999238920149585,
+        0.4052394755221578,
+        -0.2708168845357313,
+        -2.3754231380626525,
+        0.2823947135479175,
+        2.753430143507352,
+        2.1396543001602297,
+        0.010000000872649756,
+        0.009999999278803552
+      ],
+      "peg_pose": [
+        -0.9999938492659483,
+        -0.00020336790249757974,
+        0.05462341701952318,
+        -9.972807568197174e-7,
+        8.105473970943192e-7,
+        0.007169530565294655,
+        0.9999742985846295
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20346089377479992,
+      "yaw_error_deg": 0.8215747218576723,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 5.376582980476815,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023977982489325714,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 527,
       "phase": "alignment",
       "joint_positions": [
         0.30998807531151357,
@@ -23601,7 +24823,7 @@
       "reason": null
     },
     {
-      "frame": 502,
+      "frame": 528,
       "phase": "alignment",
       "joint_positions": [
         0.309975179991563,
@@ -23648,7 +24870,7 @@
       "reason": null
     },
     {
-      "frame": 503,
+      "frame": 529,
       "phase": "alignment",
       "joint_positions": [
         0.3099583213916538,
@@ -23695,7 +24917,7 @@
       "reason": null
     },
     {
-      "frame": 504,
+      "frame": 530,
       "phase": "alignment",
       "joint_positions": [
         0.3099401648705779,
@@ -23742,7 +24964,7 @@
       "reason": null
     },
     {
-      "frame": 505,
+      "frame": 531,
       "phase": "alignment",
       "joint_positions": [
         0.3099216936237581,
@@ -23789,7 +25011,7 @@
       "reason": null
     },
     {
-      "frame": 506,
+      "frame": 532,
       "phase": "alignment",
       "joint_positions": [
         0.3099031282509123,
@@ -23836,7 +25058,7 @@
       "reason": null
     },
     {
-      "frame": 507,
+      "frame": 533,
       "phase": "alignment",
       "joint_positions": [
         0.309884436484392,
@@ -23883,7 +25105,7 @@
       "reason": null
     },
     {
-      "frame": 508,
+      "frame": 534,
       "phase": "alignment",
       "joint_positions": [
         0.3098655612115146,
@@ -23930,7 +25152,7 @@
       "reason": null
     },
     {
-      "frame": 509,
+      "frame": 535,
       "phase": "alignment",
       "joint_positions": [
         0.3098464931145769,
@@ -23977,7 +25199,7 @@
       "reason": null
     },
     {
-      "frame": 510,
+      "frame": 536,
       "phase": "alignment",
       "joint_positions": [
         0.3098272696409204,
@@ -24024,7 +25246,7 @@
       "reason": null
     },
     {
-      "frame": 511,
+      "frame": 537,
       "phase": "alignment",
       "joint_positions": [
         0.3098079495265054,
@@ -24071,7 +25293,7 @@
       "reason": null
     },
     {
-      "frame": 512,
+      "frame": 538,
       "phase": "alignment",
       "joint_positions": [
         0.3097885884960068,
@@ -24118,7 +25340,7 @@
       "reason": null
     },
     {
-      "frame": 513,
+      "frame": 539,
       "phase": "alignment",
       "joint_positions": [
         0.30976922563584525,
@@ -24165,7 +25387,7 @@
       "reason": null
     },
     {
-      "frame": 514,
+      "frame": 540,
       "phase": "alignment",
       "joint_positions": [
         0.30974988055038444,
@@ -24212,7 +25434,7 @@
       "reason": null
     },
     {
-      "frame": 515,
+      "frame": 541,
       "phase": "alignment",
       "joint_positions": [
         0.3097305574017017,
@@ -24259,7 +25481,54 @@
       "reason": null
     },
     {
-      "frame": 516,
+      "frame": 542,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3097305574017017,
+        0.40584651972067504,
+        -0.2704746480135811,
+        -2.3752783899428103,
+        0.2827715247385462,
+        2.7538864963316527,
+        2.139373440325267,
+        0.010000000867651512,
+        0.00999999928374196
+      ],
+      "peg_pose": [
+        -0.9999938694840063,
+        -0.00020335432395421102,
+        0.0543973951168263,
+        -1.03183986124338e-6,
+        8.420106417060551e-7,
+        0.007169510784379103,
+        0.9999742987263918
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2034467111978557,
+      "yaw_error_deg": 0.821572455079945,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 5.602604883173698,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397810967162477,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 543,
       "phase": "alignment",
       "joint_positions": [
         0.3097262339483755,
@@ -24306,7 +25575,7 @@
       "reason": null
     },
     {
-      "frame": 517,
+      "frame": 544,
       "phase": "alignment",
       "joint_positions": [
         0.3097133263913272,
@@ -24353,7 +25622,7 @@
       "reason": null
     },
     {
-      "frame": 518,
+      "frame": 545,
       "phase": "alignment",
       "joint_positions": [
         0.3096964548433752,
@@ -24400,7 +25669,7 @@
       "reason": null
     },
     {
-      "frame": 519,
+      "frame": 546,
       "phase": "alignment",
       "joint_positions": [
         0.30967828334604963,
@@ -24447,7 +25716,7 @@
       "reason": null
     },
     {
-      "frame": 520,
+      "frame": 547,
       "phase": "alignment",
       "joint_positions": [
         0.3096597946849662,
@@ -24494,7 +25763,7 @@
       "reason": null
     },
     {
-      "frame": 521,
+      "frame": 548,
       "phase": "alignment",
       "joint_positions": [
         0.30964120985755156,
@@ -24541,7 +25810,7 @@
       "reason": null
     },
     {
-      "frame": 522,
+      "frame": 549,
       "phase": "alignment",
       "joint_positions": [
         0.3096224974087027,
@@ -24588,7 +25857,7 @@
       "reason": null
     },
     {
-      "frame": 523,
+      "frame": 550,
       "phase": "alignment",
       "joint_positions": [
         0.30960360106961865,
@@ -24635,7 +25904,7 @@
       "reason": null
     },
     {
-      "frame": 524,
+      "frame": 551,
       "phase": "alignment",
       "joint_positions": [
         0.3095845121365666,
@@ -24682,7 +25951,7 @@
       "reason": null
     },
     {
-      "frame": 525,
+      "frame": 552,
       "phase": "alignment",
       "joint_positions": [
         0.30956526834529063,
@@ -24729,7 +25998,7 @@
       "reason": null
     },
     {
-      "frame": 526,
+      "frame": 553,
       "phase": "alignment",
       "joint_positions": [
         0.3095459284367525,
@@ -24776,7 +26045,7 @@
       "reason": null
     },
     {
-      "frame": 527,
+      "frame": 554,
       "phase": "alignment",
       "joint_positions": [
         0.30952654797167195,
@@ -24823,7 +26092,7 @@
       "reason": null
     },
     {
-      "frame": 528,
+      "frame": 555,
       "phase": "alignment",
       "joint_positions": [
         0.3095071658249884,
@@ -24870,7 +26139,7 @@
       "reason": null
     },
     {
-      "frame": 529,
+      "frame": 556,
       "phase": "alignment",
       "joint_positions": [
         0.3094878014285616,
@@ -24917,7 +26186,7 @@
       "reason": null
     },
     {
-      "frame": 530,
+      "frame": 557,
       "phase": "alignment",
       "joint_positions": [
         0.3094684588491106,
@@ -24964,7 +26233,54 @@
       "reason": null
     },
     {
-      "frame": 531,
+      "frame": 558,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3094684588491106,
+        0.40645363558873887,
+        -0.2701321907378562,
+        -2.375133218023854,
+        0.2831478458360238,
+        2.7543426490580885,
+        2.1390928710852055,
+        0.010000000862781399,
+        0.009999999288550446
+      ],
+      "peg_pose": [
+        -0.9999938905092599,
+        -0.00020334763850693164,
+        0.05417137499549786,
+        -1.0749636422296746e-6,
+        8.73387240108643e-7,
+        0.007169490792552932,
+        0.9999742988696545
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2034393962914976,
+      "yaw_error_deg": 0.8215701641339024,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 5.828625004502139,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397988882082649,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 559,
       "phase": "alignment",
       "joint_positions": [
         0.3094641267355972,
@@ -25011,7 +26327,7 @@
       "reason": null
     },
     {
-      "frame": 532,
+      "frame": 560,
       "phase": "alignment",
       "joint_positions": [
         0.30945120821529665,
@@ -25058,7 +26374,7 @@
       "reason": null
     },
     {
-      "frame": 533,
+      "frame": 561,
       "phase": "alignment",
       "joint_positions": [
         0.3094343250009299,
@@ -25105,7 +26421,7 @@
       "reason": null
     },
     {
-      "frame": 534,
+      "frame": 562,
       "phase": "alignment",
       "joint_positions": [
         0.3094161397623421,
@@ -25152,7 +26468,7 @@
       "reason": null
     },
     {
-      "frame": 535,
+      "frame": 563,
       "phase": "alignment",
       "joint_positions": [
         0.3093976349257284,
@@ -25199,7 +26515,7 @@
       "reason": null
     },
     {
-      "frame": 536,
+      "frame": 564,
       "phase": "alignment",
       "joint_positions": [
         0.3093790319444426,
@@ -25246,7 +26562,7 @@
       "reason": null
     },
     {
-      "frame": 537,
+      "frame": 565,
       "phase": "alignment",
       "joint_positions": [
         0.3093603002040987,
@@ -25293,7 +26609,7 @@
       "reason": null
     },
     {
-      "frame": 538,
+      "frame": 566,
       "phase": "alignment",
       "joint_positions": [
         0.3093413842752375,
@@ -25340,7 +26656,7 @@
       "reason": null
     },
     {
-      "frame": 539,
+      "frame": 567,
       "phase": "alignment",
       "joint_positions": [
         0.3093222760436708,
@@ -25387,7 +26703,7 @@
       "reason": null
     },
     {
-      "frame": 540,
+      "frame": 568,
       "phase": "alignment",
       "joint_positions": [
         0.3093030135042064,
@@ -25434,7 +26750,7 @@
       "reason": null
     },
     {
-      "frame": 541,
+      "frame": 569,
       "phase": "alignment",
       "joint_positions": [
         0.3092836553789608,
@@ -25481,7 +26797,7 @@
       "reason": null
     },
     {
-      "frame": 542,
+      "frame": 570,
       "phase": "alignment",
       "joint_positions": [
         0.30926425705059296,
@@ -25528,7 +26844,7 @@
       "reason": null
     },
     {
-      "frame": 543,
+      "frame": 571,
       "phase": "alignment",
       "joint_positions": [
         0.30924485717763006,
@@ -25575,7 +26891,7 @@
       "reason": null
     },
     {
-      "frame": 544,
+      "frame": 572,
       "phase": "alignment",
       "joint_positions": [
         0.30922547502063574,
@@ -25622,7 +26938,7 @@
       "reason": null
     },
     {
-      "frame": 545,
+      "frame": 573,
       "phase": "alignment",
       "joint_positions": [
         0.30920611455487695,
@@ -25669,7 +26985,54 @@
       "reason": null
     },
     {
-      "frame": 546,
+      "frame": 574,
+      "phase": "insertion",
+      "joint_positions": [
+        0.30920611455487695,
+        0.4070608315370941,
+        -0.2697895502928383,
+        -2.3749876283163,
+        0.2835236371169407,
+        2.754798614073963,
+        2.138812615305205,
+        0.010000000857525948,
+        0.009999999293729429
+      ],
+      "peg_pose": [
+        -0.9999939107461354,
+        -0.00020333595868157018,
+        0.05394535410720651,
+        -1.11015453086225e-6,
+        9.043699575338314e-7,
+        0.007169470470989435,
+        0.9999742990152873
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2034271149713837,
+      "yaw_error_deg": 0.8215678354015381,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 6.05464589279349,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397912309250128,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 575,
       "phase": "alignment",
       "joint_positions": [
         0.3092017729416394,
@@ -25716,7 +27079,7 @@
       "reason": null
     },
     {
-      "frame": 547,
+      "frame": 576,
       "phase": "alignment",
       "joint_positions": [
         0.3091888426290019,
@@ -25763,7 +27126,7 @@
       "reason": null
     },
     {
-      "frame": 548,
+      "frame": 577,
       "phase": "alignment",
       "joint_positions": [
         0.309171946971791,
@@ -25810,7 +27173,7 @@
       "reason": null
     },
     {
-      "frame": 549,
+      "frame": 578,
       "phase": "alignment",
       "joint_positions": [
         0.30915374721526245,
@@ -25857,7 +27220,7 @@
       "reason": null
     },
     {
-      "frame": 550,
+      "frame": 579,
       "phase": "alignment",
       "joint_positions": [
         0.3091352253690664,
@@ -25904,7 +27267,7 @@
       "reason": null
     },
     {
-      "frame": 551,
+      "frame": 580,
       "phase": "alignment",
       "joint_positions": [
         0.30911660331550106,
@@ -25951,7 +27314,7 @@
       "reason": null
     },
     {
-      "frame": 552,
+      "frame": 581,
       "phase": "alignment",
       "joint_positions": [
         0.30909785128471035,
@@ -25998,7 +27361,7 @@
       "reason": null
     },
     {
-      "frame": 553,
+      "frame": 582,
       "phase": "alignment",
       "joint_positions": [
         0.3090789147082509,
@@ -26045,7 +27408,7 @@
       "reason": null
     },
     {
-      "frame": 554,
+      "frame": 583,
       "phase": "alignment",
       "joint_positions": [
         0.3090597860873079,
@@ -26092,7 +27455,7 @@
       "reason": null
     },
     {
-      "frame": 555,
+      "frame": 584,
       "phase": "alignment",
       "joint_positions": [
         0.30904050369685715,
@@ -26139,7 +27502,7 @@
       "reason": null
     },
     {
-      "frame": 556,
+      "frame": 585,
       "phase": "alignment",
       "joint_positions": [
         0.30902112625322725,
@@ -26186,7 +27549,7 @@
       "reason": null
     },
     {
-      "frame": 557,
+      "frame": 586,
       "phase": "alignment",
       "joint_positions": [
         0.3090017089666273,
@@ -26233,7 +27596,7 @@
       "reason": null
     },
     {
-      "frame": 558,
+      "frame": 587,
       "phase": "alignment",
       "joint_positions": [
         0.3089822902797401,
@@ -26280,7 +27643,7 @@
       "reason": null
     },
     {
-      "frame": 559,
+      "frame": 588,
       "phase": "alignment",
       "joint_positions": [
         0.30896288927993304,
@@ -26327,7 +27690,7 @@
       "reason": null
     },
     {
-      "frame": 560,
+      "frame": 589,
       "phase": "alignment",
       "joint_positions": [
         0.3089435098485559,
@@ -26374,7 +27737,54 @@
       "reason": null
     },
     {
-      "frame": 561,
+      "frame": 590,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3089435098485559,
+        0.40766810371073836,
+        -0.2694467072548229,
+        -2.3748416186033285,
+        0.2838989210385234,
+        2.7552543865909964,
+        2.138532654565215,
+        0.010000000852454104,
+        0.009999999298732448
+      ],
+      "peg_pose": [
+        -0.9999939307785326,
+        -0.0002033239372491002,
+        0.05371933327866488,
+        -1.1469823628536086e-6,
+        9.352833691399179e-7,
+        0.007169450336577109,
+        0.9999742991595739
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20341450023952656,
+      "yaw_error_deg": 0.8215655281158831,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 6.280666721335121,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023979182839322013,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 591,
       "phase": "alignment",
       "joint_positions": [
         0.3089391586029338,
@@ -26421,7 +27831,7 @@
       "reason": null
     },
     {
-      "frame": 562,
+      "frame": 592,
       "phase": "alignment",
       "joint_positions": [
         0.3089262160909486,
@@ -26468,7 +27878,7 @@
       "reason": null
     },
     {
-      "frame": 563,
+      "frame": 593,
       "phase": "alignment",
       "joint_positions": [
         0.3089093075354215,
@@ -26515,7 +27925,7 @@
       "reason": null
     },
     {
-      "frame": 564,
+      "frame": 594,
       "phase": "alignment",
       "joint_positions": [
         0.3088910928329842,
@@ -26562,7 +27972,7 @@
       "reason": null
     },
     {
-      "frame": 565,
+      "frame": 595,
       "phase": "alignment",
       "joint_positions": [
         0.30887255358320354,
@@ -26609,7 +28019,7 @@
       "reason": null
     },
     {
-      "frame": 566,
+      "frame": 596,
       "phase": "alignment",
       "joint_positions": [
         0.30885391207855006,
@@ -26656,7 +28066,7 @@
       "reason": null
     },
     {
-      "frame": 567,
+      "frame": 597,
       "phase": "alignment",
       "joint_positions": [
         0.30883513937334234,
@@ -26703,7 +28113,7 @@
       "reason": null
     },
     {
-      "frame": 568,
+      "frame": 598,
       "phase": "alignment",
       "joint_positions": [
         0.3088161817476993,
@@ -26750,7 +28160,7 @@
       "reason": null
     },
     {
-      "frame": 569,
+      "frame": 599,
       "phase": "alignment",
       "joint_positions": [
         0.30879703231476097,
@@ -26797,7 +28207,7 @@
       "reason": null
     },
     {
-      "frame": 570,
+      "frame": 600,
       "phase": "alignment",
       "joint_positions": [
         0.3087777296326558,
@@ -26844,7 +28254,7 @@
       "reason": null
     },
     {
-      "frame": 571,
+      "frame": 601,
       "phase": "alignment",
       "joint_positions": [
         0.3087583324178694,
@@ -26891,7 +28301,7 @@
       "reason": null
     },
     {
-      "frame": 572,
+      "frame": 602,
       "phase": "alignment",
       "joint_positions": [
         0.3087388957143098,
@@ -26938,7 +28348,7 @@
       "reason": null
     },
     {
-      "frame": 573,
+      "frame": 603,
       "phase": "alignment",
       "joint_positions": [
         0.30871945775357357,
@@ -26985,7 +28395,7 @@
       "reason": null
     },
     {
-      "frame": 574,
+      "frame": 604,
       "phase": "alignment",
       "joint_positions": [
         0.3087000374526629,
@@ -27032,7 +28442,7 @@
       "reason": null
     },
     {
-      "frame": 575,
+      "frame": 605,
       "phase": "alignment",
       "joint_positions": [
         0.3086806386000917,
@@ -27079,7 +28489,54 @@
       "reason": null
     },
     {
-      "frame": 576,
+      "frame": 606,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3086806386000917,
+        0.40827545297763795,
+        -0.2691036467675948,
+        -2.3746951821519433,
+        0.2842737136458841,
+        2.7557099615486083,
+        2.138252981909766,
+        0.010000000847552747,
+        0.009999999303565115
+      ],
+      "peg_pose": [
+        -0.9999939524611724,
+        -0.0002033178340307086,
+        0.053493312687423175,
+        -1.1924232311661348e-6,
+        9.663234019318574e-7,
+        0.007169430538768757,
+        0.9999742993014341
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20340775393482455,
+      "yaw_error_deg": 0.8215632594042859,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 6.5066873125768225,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023979419337917376,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 607,
       "phase": "alignment",
       "joint_positions": [
         0.30867627878081466,
@@ -27126,7 +28583,7 @@
       "reason": null
     },
     {
-      "frame": 577,
+      "frame": 608,
       "phase": "alignment",
       "joint_positions": [
         0.30866332561819837,
@@ -27173,7 +28630,7 @@
       "reason": null
     },
     {
-      "frame": 578,
+      "frame": 609,
       "phase": "alignment",
       "joint_positions": [
         0.30864640581814967,
@@ -27220,7 +28677,7 @@
       "reason": null
     },
     {
-      "frame": 579,
+      "frame": 610,
       "phase": "alignment",
       "joint_positions": [
         0.30862817785049196,
@@ -27267,7 +28724,7 @@
       "reason": null
     },
     {
-      "frame": 580,
+      "frame": 611,
       "phase": "alignment",
       "joint_positions": [
         0.3086096229281522,
@@ -27314,7 +28771,7 @@
       "reason": null
     },
     {
-      "frame": 581,
+      "frame": 612,
       "phase": "alignment",
       "joint_positions": [
         0.3085909637878117,
@@ -27361,7 +28818,7 @@
       "reason": null
     },
     {
-      "frame": 582,
+      "frame": 613,
       "phase": "alignment",
       "joint_positions": [
         0.30857217231889245,
@@ -27408,7 +28865,7 @@
       "reason": null
     },
     {
-      "frame": 583,
+      "frame": 614,
       "phase": "alignment",
       "joint_positions": [
         0.30855319563615413,
@@ -27455,7 +28912,7 @@
       "reason": null
     },
     {
-      "frame": 584,
+      "frame": 615,
       "phase": "alignment",
       "joint_positions": [
         0.30853402743728897,
@@ -27502,7 +28959,7 @@
       "reason": null
     },
     {
-      "frame": 585,
+      "frame": 616,
       "phase": "alignment",
       "joint_positions": [
         0.3085147065352019,
@@ -27549,7 +29006,7 @@
       "reason": null
     },
     {
-      "frame": 586,
+      "frame": 617,
       "phase": "alignment",
       "joint_positions": [
         0.3084952916252437,
@@ -27596,7 +29053,7 @@
       "reason": null
     },
     {
-      "frame": 587,
+      "frame": 618,
       "phase": "alignment",
       "joint_positions": [
         0.3084758375734341,
@@ -27643,7 +29100,7 @@
       "reason": null
     },
     {
-      "frame": 588,
+      "frame": 619,
       "phase": "alignment",
       "joint_positions": [
         0.30845638239704126,
@@ -27690,7 +29147,7 @@
       "reason": null
     },
     {
-      "frame": 589,
+      "frame": 620,
       "phase": "alignment",
       "joint_positions": [
         0.3084369448446327,
@@ -27737,7 +29194,7 @@
       "reason": null
     },
     {
-      "frame": 590,
+      "frame": 621,
       "phase": "alignment",
       "joint_positions": [
         0.3084175286157852,
@@ -27784,7 +29241,54 @@
       "reason": null
     },
     {
-      "frame": 591,
+      "frame": 622,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3084175286157852,
+        0.4088828862079013,
+        -0.2687604105171651,
+        -2.3745483288561156,
+        0.284647969631787,
+        2.7561653548026652,
+        2.1379736263067928,
+        0.010000000842323364,
+        0.009999999308715852
+      ],
+      "peg_pose": [
+        -0.9999939733765605,
+        -0.0002033065771149312,
+        0.053267289913778416,
+        -1.2279258796981782e-6,
+        9.977104303501024e-7,
+        0.007169411827448288,
+        0.9999742994355131
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20339588119790225,
+      "yaw_error_deg": 0.8215611151978237,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 6.732710086221581,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023977238119977515,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 623,
       "phase": "alignment",
       "joint_positions": [
         0.3084131596869361,
@@ -27831,7 +29335,7 @@
       "reason": null
     },
     {
-      "frame": 592,
+      "frame": 624,
       "phase": "alignment",
       "joint_positions": [
         0.3084001954990681,
@@ -27878,7 +29382,7 @@
       "reason": null
     },
     {
-      "frame": 593,
+      "frame": 625,
       "phase": "alignment",
       "joint_positions": [
         0.30838326420353485,
@@ -27925,7 +29429,7 @@
       "reason": null
     },
     {
-      "frame": 594,
+      "frame": 626,
       "phase": "alignment",
       "joint_positions": [
         0.30836502276154243,
@@ -27972,7 +29476,7 @@
       "reason": null
     },
     {
-      "frame": 595,
+      "frame": 627,
       "phase": "alignment",
       "joint_positions": [
         0.3083464519344151,
@@ -28019,7 +29523,7 @@
       "reason": null
     },
     {
-      "frame": 596,
+      "frame": 628,
       "phase": "alignment",
       "joint_positions": [
         0.30832777487148044,
@@ -28066,7 +29570,7 @@
       "reason": null
     },
     {
-      "frame": 597,
+      "frame": 629,
       "phase": "alignment",
       "joint_positions": [
         0.30830896429460164,
@@ -28113,7 +29617,7 @@
       "reason": null
     },
     {
-      "frame": 598,
+      "frame": 630,
       "phase": "alignment",
       "joint_positions": [
         0.30828996816693627,
@@ -28160,7 +29664,7 @@
       "reason": null
     },
     {
-      "frame": 599,
+      "frame": 631,
       "phase": "alignment",
       "joint_positions": [
         0.3082707807890992,
@@ -28207,7 +29711,7 @@
       "reason": null
     },
     {
-      "frame": 600,
+      "frame": 632,
       "phase": "alignment",
       "joint_positions": [
         0.30825144124431647,
@@ -28254,7 +29758,7 @@
       "reason": null
     },
     {
-      "frame": 601,
+      "frame": 633,
       "phase": "alignment",
       "joint_positions": [
         0.30823200821665664,
@@ -28301,7 +29805,7 @@
       "reason": null
     },
     {
-      "frame": 602,
+      "frame": 634,
       "phase": "alignment",
       "joint_positions": [
         0.30821253639867524,
@@ -28348,7 +29852,7 @@
       "reason": null
     },
     {
-      "frame": 603,
+      "frame": 635,
       "phase": "alignment",
       "joint_positions": [
         0.30819306359399995,
@@ -28395,7 +29899,7 @@
       "reason": null
     },
     {
-      "frame": 604,
+      "frame": 636,
       "phase": "alignment",
       "joint_positions": [
         0.3081736083815702,
@@ -28442,7 +29946,7 @@
       "reason": null
     },
     {
-      "frame": 605,
+      "frame": 637,
       "phase": "alignment",
       "joint_positions": [
         0.3081541743703288,
@@ -28489,7 +29993,54 @@
       "reason": null
     },
     {
-      "frame": 606,
+      "frame": 638,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3081541743703288,
+        0.4094903934919188,
+        -0.2684169892088183,
+        -2.374401058421467,
+        0.2850217017126912,
+        2.7566205554944916,
+        2.1376945827926375,
+        0.010000000837245908,
+        0.009999999313719634
+      ],
+      "peg_pose": [
+        -0.9999939937731321,
+        -0.00020329433836502924,
+        0.05304126816962987,
+        -1.260827917049064e-6,
+        1.0289533998071623e-6,
+        0.0071693923192958685,
+        0.9999742995753058
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20338304445666855,
+      "yaw_error_deg": 0.8215588796786051,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 6.958731830370129,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023978267649786743,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 639,
       "phase": "alignment",
       "joint_positions": [
         0.30814979621287314,
@@ -28536,7 +30087,7 @@
       "reason": null
     },
     {
-      "frame": 607,
+      "frame": 640,
       "phase": "alignment",
       "joint_positions": [
         0.3081368204561638,
@@ -28583,7 +30134,7 @@
       "reason": null
     },
     {
-      "frame": 608,
+      "frame": 641,
       "phase": "alignment",
       "joint_positions": [
         0.3081198768414314,
@@ -28630,7 +30181,7 @@
       "reason": null
     },
     {
-      "frame": 609,
+      "frame": 642,
       "phase": "alignment",
       "joint_positions": [
         0.3081016209433133,
@@ -28677,7 +30228,7 @@
       "reason": null
     },
     {
-      "frame": 610,
+      "frame": 643,
       "phase": "alignment",
       "joint_positions": [
         0.3080830331639491,
@@ -28724,7 +30275,7 @@
       "reason": null
     },
     {
-      "frame": 611,
+      "frame": 644,
       "phase": "alignment",
       "joint_positions": [
         0.3080643371236289,
@@ -28771,7 +30322,7 @@
       "reason": null
     },
     {
-      "frame": 612,
+      "frame": 645,
       "phase": "alignment",
       "joint_positions": [
         0.30804550640385187,
@@ -28818,7 +30369,7 @@
       "reason": null
     },
     {
-      "frame": 613,
+      "frame": 646,
       "phase": "alignment",
       "joint_positions": [
         0.30802648982099756,
@@ -28865,7 +30416,7 @@
       "reason": null
     },
     {
-      "frame": 614,
+      "frame": 647,
       "phase": "alignment",
       "joint_positions": [
         0.3080072822714772,
@@ -28912,7 +30463,7 @@
       "reason": null
     },
     {
-      "frame": 615,
+      "frame": 648,
       "phase": "alignment",
       "joint_positions": [
         0.30798792309844686,
@@ -28959,7 +30510,7 @@
       "reason": null
     },
     {
-      "frame": 616,
+      "frame": 649,
       "phase": "alignment",
       "joint_positions": [
         0.30796847096636387,
@@ -29006,7 +30557,7 @@
       "reason": null
     },
     {
-      "frame": 617,
+      "frame": 650,
       "phase": "alignment",
       "joint_positions": [
         0.3079489803900432,
@@ -29053,7 +30604,7 @@
       "reason": null
     },
     {
-      "frame": 618,
+      "frame": 651,
       "phase": "alignment",
       "joint_positions": [
         0.3079294889588915,
@@ -29100,7 +30651,7 @@
       "reason": null
     },
     {
-      "frame": 619,
+      "frame": 652,
       "phase": "alignment",
       "joint_positions": [
         0.3079100150838763,
@@ -29147,7 +30698,7 @@
       "reason": null
     },
     {
-      "frame": 620,
+      "frame": 653,
       "phase": "alignment",
       "joint_positions": [
         0.3078905622856507,
@@ -29194,7 +30745,54 @@
       "reason": null
     },
     {
-      "frame": 621,
+      "frame": 654,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3078905622856507,
+        0.4100979777604102,
+        -0.2680733723815676,
+        -2.374253368092852,
+        0.285394922657599,
+        2.757075563726629,
+        2.137415833638647,
+        0.010000000832034218,
+        0.009999999318849878
+      ],
+      "peg_pose": [
+        -0.9999940140406972,
+        -0.00020328052237702292,
+        0.05281524617854489,
+        -1.2957136908611105e-6,
+        1.0599458823174254e-6,
+        0.007169373117572548,
+        0.999974299712897
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20336863692971438,
+      "yaw_error_deg": 0.8215566792748064,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 7.184753821455107,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.0239780214610088,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 655,
       "phase": "alignment",
       "joint_positions": [
         0.3078861746689982,
@@ -29241,7 +30839,7 @@
       "reason": null
     },
     {
-      "frame": 622,
+      "frame": 656,
       "phase": "alignment",
       "joint_positions": [
         0.30787318721664403,
@@ -29288,7 +30886,7 @@
       "reason": null
     },
     {
-      "frame": 623,
+      "frame": 657,
       "phase": "alignment",
       "joint_positions": [
         0.3078562312856616,
@@ -29335,7 +30933,7 @@
       "reason": null
     },
     {
-      "frame": 624,
+      "frame": 658,
       "phase": "alignment",
       "joint_positions": [
         0.30783796101927724,
@@ -29382,7 +30980,7 @@
       "reason": null
     },
     {
-      "frame": 625,
+      "frame": 659,
       "phase": "alignment",
       "joint_positions": [
         0.30781935640443964,
@@ -29429,7 +31027,7 @@
       "reason": null
     },
     {
-      "frame": 626,
+      "frame": 660,
       "phase": "alignment",
       "joint_positions": [
         0.30780064149176817,
@@ -29476,7 +31074,7 @@
       "reason": null
     },
     {
-      "frame": 627,
+      "frame": 661,
       "phase": "alignment",
       "joint_positions": [
         0.3077817907034151,
@@ -29523,7 +31121,7 @@
       "reason": null
     },
     {
-      "frame": 628,
+      "frame": 662,
       "phase": "alignment",
       "joint_positions": [
         0.30776275370717115,
@@ -29570,7 +31168,7 @@
       "reason": null
     },
     {
-      "frame": 629,
+      "frame": 663,
       "phase": "alignment",
       "joint_positions": [
         0.3077435260028452,
@@ -29617,7 +31215,7 @@
       "reason": null
     },
     {
-      "frame": 630,
+      "frame": 664,
       "phase": "alignment",
       "joint_positions": [
         0.30772414720381047,
@@ -29664,7 +31262,7 @@
       "reason": null
     },
     {
-      "frame": 631,
+      "frame": 665,
       "phase": "alignment",
       "joint_positions": [
         0.30770467596377765,
@@ -29711,7 +31309,7 @@
       "reason": null
     },
     {
-      "frame": 632,
+      "frame": 666,
       "phase": "alignment",
       "joint_positions": [
         0.30768516662564604,
@@ -29758,7 +31356,7 @@
       "reason": null
     },
     {
-      "frame": 633,
+      "frame": 667,
       "phase": "alignment",
       "joint_positions": [
         0.30766565656742595,
@@ -29805,7 +31403,7 @@
       "reason": null
     },
     {
-      "frame": 634,
+      "frame": 668,
       "phase": "alignment",
       "joint_positions": [
         0.3076461640327535,
@@ -29852,7 +31450,7 @@
       "reason": null
     },
     {
-      "frame": 635,
+      "frame": 669,
       "phase": "alignment",
       "joint_positions": [
         0.3076266924534036,
@@ -29899,7 +31497,54 @@
       "reason": null
     },
     {
-      "frame": 636,
+      "frame": 670,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3076266924534036,
+        0.41070563516585473,
+        -0.267729553794471,
+        -2.374105256839203,
+        0.28576763984827747,
+        2.757530375065812,
+        2.13713737912758,
+        0.010000000826998806,
+        0.0099999993238091
+      ],
+      "peg_pose": [
+        -0.999994034649169,
+        -0.00020326965351133409,
+        0.052589225231282934,
+        -1.3368109654457362e-6,
+        1.0907811256578494e-6,
+        0.007169353616216365,
+        0.9999742998526255
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20335716719396538,
+      "yaw_error_deg": 0.82155444453565,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 7.410774768717064,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023979064057114502,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 671,
       "phase": "alignment",
       "joint_positions": [
         0.30762229633932825,
@@ -29946,7 +31591,7 @@
       "reason": null
     },
     {
-      "frame": 637,
+      "frame": 672,
       "phase": "alignment",
       "joint_positions": [
         0.3076092987084174,
@@ -29993,7 +31638,7 @@
       "reason": null
     },
     {
-      "frame": 638,
+      "frame": 673,
       "phase": "alignment",
       "joint_positions": [
         0.3075923322028482,
@@ -30040,7 +31685,7 @@
       "reason": null
     },
     {
-      "frame": 639,
+      "frame": 674,
       "phase": "alignment",
       "joint_positions": [
         0.30757404943211947,
@@ -30087,7 +31732,7 @@
       "reason": null
     },
     {
-      "frame": 640,
+      "frame": 675,
       "phase": "alignment",
       "joint_positions": [
         0.30755542994162127,
@@ -30134,7 +31779,7 @@
       "reason": null
     },
     {
-      "frame": 641,
+      "frame": 676,
       "phase": "alignment",
       "joint_positions": [
         0.30753669820299107,
@@ -30181,7 +31826,7 @@
       "reason": null
     },
     {
-      "frame": 642,
+      "frame": 677,
       "phase": "alignment",
       "joint_positions": [
         0.3075178294652404,
@@ -30228,7 +31873,7 @@
       "reason": null
     },
     {
-      "frame": 643,
+      "frame": 678,
       "phase": "alignment",
       "joint_positions": [
         0.307498774226981,
@@ -30275,7 +31920,7 @@
       "reason": null
     },
     {
-      "frame": 644,
+      "frame": 679,
       "phase": "alignment",
       "joint_positions": [
         0.3074795285690603,
@@ -30322,7 +31967,7 @@
       "reason": null
     },
     {
-      "frame": 645,
+      "frame": 680,
       "phase": "alignment",
       "joint_positions": [
         0.3074601323563911,
@@ -30369,7 +32014,7 @@
       "reason": null
     },
     {
-      "frame": 646,
+      "frame": 681,
       "phase": "alignment",
       "joint_positions": [
         0.30744064421986744,
@@ -30416,7 +32061,7 @@
       "reason": null
     },
     {
-      "frame": 647,
+      "frame": 682,
       "phase": "alignment",
       "joint_positions": [
         0.307421118325104,
@@ -30463,7 +32108,7 @@
       "reason": null
     },
     {
-      "frame": 648,
+      "frame": 683,
       "phase": "alignment",
       "joint_positions": [
         0.30740159183829374,
@@ -30510,7 +32155,7 @@
       "reason": null
     },
     {
-      "frame": 649,
+      "frame": 684,
       "phase": "alignment",
       "joint_positions": [
         0.30738208283791824,
@@ -30557,7 +32202,7 @@
       "reason": null
     },
     {
-      "frame": 650,
+      "frame": 685,
       "phase": "alignment",
       "joint_positions": [
         0.30736259466964405,
@@ -30604,7 +32249,54 @@
       "reason": null
     },
     {
-      "frame": 651,
+      "frame": 686,
+      "phase": "insertion",
+      "joint_positions": [
+        0.30736259466964405,
+        0.41131338069381557,
+        -0.26738557111880434,
+        -2.373956725850398,
+        0.28613981068344685,
+        2.757985005370408,
+        2.136859250983657,
+        0.01000000082184443,
+        0.009999999328879398
+      ],
+      "peg_pose": [
+        -0.9999940555651284,
+        -0.00020325378122840594,
+        0.05236320141610185,
+        -1.3658397171377541e-6,
+        1.1220006541428572e-6,
+        0.00716933526702138,
+        0.9999742999841069
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.20334068921292403,
+      "yaw_error_deg": 0.8215523418269868,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 7.636798583898146,
+      "contact_count": 24,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023976199195820575,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 687,
       "phase": "alignment",
       "joint_positions": [
         0.3073581893996028,
@@ -30651,7 +32343,7 @@
       "reason": null
     },
     {
-      "frame": 652,
+      "frame": 688,
       "phase": "alignment",
       "joint_positions": [
         0.30734518056343324,
@@ -30698,7 +32390,7 @@
       "reason": null
     },
     {
-      "frame": 653,
+      "frame": 689,
       "phase": "alignment",
       "joint_positions": [
         0.3073282023047794,
@@ -30745,7 +32437,7 @@
       "reason": null
     },
     {
-      "frame": 654,
+      "frame": 690,
       "phase": "alignment",
       "joint_positions": [
         0.30730990576950806,
@@ -30792,7 +32484,7 @@
       "reason": null
     },
     {
-      "frame": 655,
+      "frame": 691,
       "phase": "alignment",
       "joint_positions": [
         0.30729127008297435,
@@ -30839,7 +32531,7 @@
       "reason": null
     },
     {
-      "frame": 656,
+      "frame": 692,
       "phase": "alignment",
       "joint_positions": [
         0.3072725201466799,
@@ -30886,7 +32578,7 @@
       "reason": null
     },
     {
-      "frame": 657,
+      "frame": 693,
       "phase": "alignment",
       "joint_positions": [
         0.30725363204556655,
@@ -30933,7 +32625,7 @@
       "reason": null
     },
     {
-      "frame": 658,
+      "frame": 694,
       "phase": "alignment",
       "joint_positions": [
         0.30723455712013736,
@@ -30980,7 +32672,7 @@
       "reason": null
     },
     {
-      "frame": 659,
+      "frame": 695,
       "phase": "alignment",
       "joint_positions": [
         0.3072152920434234,
@@ -31027,7 +32719,7 @@
       "reason": null
     },
     {
-      "frame": 660,
+      "frame": 696,
       "phase": "alignment",
       "joint_positions": [
         0.3071958769411201,
@@ -31074,7 +32766,7 @@
       "reason": null
     },
     {
-      "frame": 661,
+      "frame": 697,
       "phase": "alignment",
       "joint_positions": [
         0.3071763704277705,
@@ -31121,7 +32813,7 @@
       "reason": null
     },
     {
-      "frame": 662,
+      "frame": 698,
       "phase": "alignment",
       "joint_positions": [
         0.30715682649551773,
@@ -31168,7 +32860,7 @@
       "reason": null
     },
     {
-      "frame": 663,
+      "frame": 699,
       "phase": "alignment",
       "joint_positions": [
         0.30713728210053615,
@@ -31215,7 +32907,7 @@
       "reason": null
     },
     {
-      "frame": 664,
+      "frame": 700,
       "phase": "alignment",
       "joint_positions": [
         0.30711775515666706,
@@ -31262,7 +32954,7 @@
       "reason": null
     },
     {
-      "frame": 665,
+      "frame": 701,
       "phase": "alignment",
       "joint_positions": [
         0.3070982489232918,
@@ -31309,7 +33001,54 @@
       "reason": null
     },
     {
-      "frame": 666,
+      "frame": 702,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3070982489232918,
+        0.41192119765286606,
+        -0.2670413980688461,
+        -2.3738077773348243,
+        0.28651146700511537,
+        2.758439439960094,
+        2.1365814267025534,
+        0.01000000081676921,
+        0.009999999333875223
+      ],
+      "peg_pose": [
+        -0.9999940761322904,
+        -0.00020323997492820834,
+        0.05213717906738053,
+        -1.3982169039058584e-6,
+        1.152996609888794e-6,
+        0.007169316491478052,
+        0.9999743001186383
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2033262885547746,
+      "yaw_error_deg": 0.8215501902614619,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 7.862820932619467,
+      "contact_count": 23,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.02397766407438363,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 703,
       "phase": "alignment",
       "joint_positions": [
         0.30709383453507205,
@@ -31356,7 +33095,7 @@
       "reason": null
     },
     {
-      "frame": 667,
+      "frame": 704,
       "phase": "alignment",
       "joint_positions": [
         0.307080814404645,
@@ -31403,7 +33142,7 @@
       "reason": null
     },
     {
-      "frame": 668,
+      "frame": 705,
       "phase": "alignment",
       "joint_positions": [
         0.30706382433252294,
@@ -31450,7 +33189,7 @@
       "reason": null
     },
     {
-      "frame": 669,
+      "frame": 706,
       "phase": "alignment",
       "joint_positions": [
         0.3070455140414957,
@@ -31497,7 +33236,7 @@
       "reason": null
     },
     {
-      "frame": 670,
+      "frame": 707,
       "phase": "alignment",
       "joint_positions": [
         0.3070268622255809,
@@ -31544,7 +33283,7 @@
       "reason": null
     },
     {
-      "frame": 671,
+      "frame": 708,
       "phase": "alignment",
       "joint_positions": [
         0.30700809418776487,
@@ -31591,7 +33330,7 @@
       "reason": null
     },
     {
-      "frame": 672,
+      "frame": 709,
       "phase": "alignment",
       "joint_positions": [
         0.30698918682280063,
@@ -31638,7 +33377,7 @@
       "reason": null
     },
     {
-      "frame": 673,
+      "frame": 710,
       "phase": "alignment",
       "joint_positions": [
         0.30697009229692995,
@@ -31685,7 +33424,7 @@
       "reason": null
     },
     {
-      "frame": 674,
+      "frame": 711,
       "phase": "alignment",
       "joint_positions": [
         0.3069508078695822,
@@ -31732,7 +33471,7 @@
       "reason": null
     },
     {
-      "frame": 675,
+      "frame": 712,
       "phase": "alignment",
       "joint_positions": [
         0.3069313739288041,
@@ -31779,7 +33518,7 @@
       "reason": null
     },
     {
-      "frame": 676,
+      "frame": 713,
       "phase": "alignment",
       "joint_positions": [
         0.3069118490779839,
@@ -31826,7 +33565,7 @@
       "reason": null
     },
     {
-      "frame": 677,
+      "frame": 714,
       "phase": "alignment",
       "joint_positions": [
         0.3068922871416196,
@@ -31873,7 +33612,7 @@
       "reason": null
     },
     {
-      "frame": 678,
+      "frame": 715,
       "phase": "alignment",
       "joint_positions": [
         0.3068727248705357,
@@ -31920,7 +33659,7 @@
       "reason": null
     },
     {
-      "frame": 679,
+      "frame": 716,
       "phase": "alignment",
       "joint_positions": [
         0.3068531800167726,
@@ -31967,7 +33706,7 @@
       "reason": null
     },
     {
-      "frame": 680,
+      "frame": 717,
       "phase": "alignment",
       "joint_positions": [
         0.3068336557545414,
@@ -32014,7 +33753,54 @@
       "reason": null
     },
     {
-      "frame": 681,
+      "frame": 718,
+      "phase": "insertion",
+      "joint_positions": [
+        0.3068336557545414,
+        0.4125290834329289,
+        -0.26669702696804953,
+        -2.3736584089364214,
+        0.2868826168162665,
+        2.758893674228437,
+        2.136303906597153,
+        0.010000000811847442,
+        0.00999999933871989
+      ],
+      "peg_pose": [
+        -0.9999940971240974,
+        -0.00020323378186506787,
+        0.05191115918198062,
+        -1.4384274513474116e-6,
+        1.1837877886041123e-6,
+        0.007169297327789609,
+        0.9999743002559393
+      ],
+      "hole_pose": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "xy_error_mm": 0.2033194875930486,
+      "yaw_error_deg": 0.8215479942178092,
+      "action": [
+        0.005782055668532848,
+        -0.00806926004588604,
+        -0.12216845899820328
+      ],
+      "insertion_depth_mm": 8.088840818019374,
+      "contact_count": 23,
+      "max_contact_force": 0.0,
+      "tracking_error_mm": 0.023980124587740938,
+      "terminated": false,
+      "success": false,
+      "reason": null
+    },
+    {
+      "frame": 719,
       "phase": "complete",
       "joint_positions": [
         0.3068336557545414,

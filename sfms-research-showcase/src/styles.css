@@ -14,5 +14,9 @@
 @media(max-width:1100px){.concept-grid{grid-template-columns:1fr 1fr}.paper-comparison{overflow:auto}.paper-comparison>header,.paper-comparison>article{min-width:1000px}}
 @media(max-width:760px){.concept-section>.section-intro,.concept-grid,.paper-intro,.comparison-note{grid-template-columns:1fr}.concept-section>.section-intro .kicker{grid-row:auto}.concept-section{padding:60px 0}.paper-intro{padding:45px 0}.paper-comparison{margin-bottom:40px}}
 
-/* Match the preferred 120% desktop reading scale without enlarging narrow mobile layouts. */
-@media(min-width:761px){:root{font-size:120%}}
+/* Apply the preferred 120% viewing scale to the entire showcase, not just rem-based text. */
+:root{zoom:1.2}
+
+/* Preserve the recording's full 1120×650 frame so its terminal overlay is never cropped. */
+.lab-primary{grid-template-columns:1.05fr .95fr}.zoom-media{height:auto;aspect-ratio:1120/650}.zoom-media img{object-fit:contain}
+@media(max-width:1100px){.lab-primary{grid-template-columns:1fr}}
