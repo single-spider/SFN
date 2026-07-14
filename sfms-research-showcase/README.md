@@ -1,4 +1,10 @@
-# Vision-Guided Peg-in-Hole Research Showcase
+# Submillimeter Accuracy Peg In Hole Insertion Using Seam Filling Network
+
+**Gaurav Srivastava**
+
+Under guidance of **Prof. Harish PM**
+
+Indian Institute of Technology Gandhinagar
 
 Research website for the SFN paper implementation, controller extensions, simulation results, and recorded Panda replays.
 
