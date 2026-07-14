@@ -1,0 +1,39 @@
+# Deterministic robustness families. Episode and frame indices are the pairing
+# keys; camera profiles operate on RGB only and never edit segmentation labels.
+camera:
+  blur:
+    blur_kernel_px: 5
+  motion_blur:
+    motion_blur_px: 7
+  gamma:
+    gamma: 1.45
+  white_balance:
+    white_balance_rgb: [1.16, 1.0, 0.84]
+  intrinsic_scale:
+    intrinsic_scale: 1.12
+  crop:
+    crop_fraction: 0.12
+  lighting:
+    lighting_gain: 0.72
+    lighting_bias: 0.06
+    lighting_gradient: 0.18
+
+# Values are normalized (x, y, yaw) command units. Constant offsets remain
+# separate so calibration and peg-attachment hypotheses can be reported apart.
+action:
+  command_noise:
+    noise_std: [0.04, 0.04, 0.025]
+  command_backlash:
+    backlash: [0.06, 0.06, 0.03]
+  command_delay:
+    delay_steps: 2
+  calibration_offset:
+    calibration_offset: [0.04, -0.03, 0.025]
+  attachment_offset:
+    attachment_offset: [-0.025, 0.035, -0.02]
+  combined_command:
+    noise_std: [0.025, 0.025, 0.015]
+    backlash: [0.04, 0.04, 0.02]
+    delay_steps: 1
+    calibration_offset: [0.02, -0.015, 0.01]
+    attachment_offset: [-0.01, 0.015, -0.01]

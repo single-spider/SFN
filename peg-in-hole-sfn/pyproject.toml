@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peg-in-hole-sfn"
+version = "0.2.0"
+description = "Asset-faithful SFN peg-in-hole simulation, perception, and controller research pipeline"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "gymnasium>=1.0,<2",
+  "matplotlib>=3.8",
+  "numpy>=2.0",
+  "opencv-python>=4.10",
+  "pillow>=10",
+  "pybullet>=3.2.7",
+  "PyYAML>=6",
+  "scipy>=1.12",
+  "torch>=2.4",
+  "tqdm>=4.66",
+  "trimesh>=4.4",
+  "vhacdx>=0.0.10",
+]
+
+[project.optional-dependencies]
+showcase = [
+  "fastapi>=0.115",
+  "httpx>=0.28",
+  "pydantic>=2.0",
+  "uvicorn[standard]>=0.30",
+]
+dev = [
+  "coverage[toml]>=7.6",
+  "mypy>=1.13",
+  "pytest>=8.3",
+  "ruff>=0.8",
+]
+
+[tool.setuptools.packages.find]
+include = ["sfn*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+extend-exclude = ["algos", "gymEnv", "utils"]
+src = ["sfn", "scripts", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/**/*.py" = ["E402"] # supported scripts add the project root before package imports
+"tests/**/*.py" = ["B011", "E402"] # importorskip must run before optional dependency imports
+
+[tool.mypy]
+python_version = "3.11"
+packages = ["sfn"]
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+show_error_codes = true
+pretty = true
+
+[[tool.mypy.overrides]]
+module = ["cv2", "gymnasium.*", "matplotlib.*", "pybullet", "scipy.*", "torch.*", "trimesh.*"]
+ignore_missing_imports = true

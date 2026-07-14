@@ -1,0 +1,552 @@
+{
+  "benchmark_status": "corrected_panda_and_mesh",
+  "metrics": {
+    "cartesian": [
+      {
+        "episodes": 200,
+        "id": "strict_xy_a2c",
+        "mean_final_xy_error_mm": 0.322,
+        "status": "historical_cartesian",
+        "successes": 200
+      }
+    ],
+    "mesh": {
+      "clean": {
+        "backend": "mesh_faithful_synthetic",
+        "episode_budget_per_method": 40,
+        "mask_source": "predicted",
+        "methods": {
+          "mfms": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 0.2712260603766796,
+            "mean_final_yaw_error_deg": 0.316193026304245,
+            "mean_steps": 4.675,
+            "success_rate": 1.0,
+            "success_rate_wilson_95": [
+              0.9123783988027133,
+              0.9999999999999999
+            ],
+            "successes": 40
+          },
+          "oracle": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 0.024889246560633183,
+            "mean_final_yaw_error_deg": 0.03930176496505737,
+            "mean_steps": 3.9,
+            "success_rate": 1.0,
+            "success_rate_wilson_95": [
+              0.9123783988027133,
+              0.9999999999999999
+            ],
+            "successes": 40
+          },
+          "sfms": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 0.28846495235365655,
+            "mean_final_yaw_error_deg": 0.4677242522127926,
+            "mean_steps": 8.45,
+            "success_rate": 0.85,
+            "success_rate_wilson_95": [
+              0.709276756335103,
+              0.9293881228267964
+            ],
+            "successes": 34
+          },
+          "sfss_one_step": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 5.080764525321938,
+            "mean_final_yaw_error_deg": 2.818587194941938,
+            "mean_steps": 1.0,
+            "success_rate": 0.0,
+            "success_rate_wilson_95": [
+              6.938893903907228e-18,
+              0.0876216011972866
+            ],
+            "successes": 0
+          },
+          "sfss_recursive": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 0.20534670883194925,
+            "mean_final_yaw_error_deg": 0.39117091298103335,
+            "mean_steps": 4.825,
+            "success_rate": 1.0,
+            "success_rate_wilson_95": [
+              0.9123783988027133,
+              0.9999999999999999
+            ],
+            "successes": 40
+          }
+        },
+        "per_shape": [
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.34671473046479745,
+            "mean_final_yaw_error_deg": 0.3877854835242033,
+            "method": "mfms",
+            "shape": "square-concave2",
+            "success_rate": 1.0,
+            "successes": 20
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.03777220845222473,
+            "mean_final_yaw_error_deg": 0.049134016036987305,
+            "method": "oracle",
+            "shape": "square-concave2",
+            "success_rate": 1.0,
+            "successes": 20
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.38725471452060906,
+            "mean_final_yaw_error_deg": 0.6704347243532538,
+            "method": "sfms",
+            "shape": "square-concave2",
+            "success_rate": 0.7,
+            "successes": 14
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 5.670963121892394,
+            "mean_final_yaw_error_deg": 3.1920874740928413,
+            "method": "sfss_one_step",
+            "shape": "square-concave2",
+            "success_rate": 0.0,
+            "successes": 0
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.31568131254641474,
+            "mean_final_yaw_error_deg": 0.4201054260134697,
+            "method": "sfss_recursive",
+            "shape": "square-concave2",
+            "success_rate": 1.0,
+            "successes": 20
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.1957373902885618,
+            "mean_final_yaw_error_deg": 0.24460056908428668,
+            "method": "mfms",
+            "shape": "square-fillet4",
+            "success_rate": 1.0,
+            "successes": 20
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.012006284669041634,
+            "mean_final_yaw_error_deg": 0.029469513893127443,
+            "method": "oracle",
+            "shape": "square-fillet4",
+            "success_rate": 1.0,
+            "successes": 20
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.18967519018670412,
+            "mean_final_yaw_error_deg": 0.26501378007233145,
+            "method": "sfms",
+            "shape": "square-fillet4",
+            "success_rate": 1.0,
+            "successes": 20
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 4.490565928751481,
+            "mean_final_yaw_error_deg": 2.445086915791035,
+            "method": "sfss_one_step",
+            "shape": "square-fillet4",
+            "success_rate": 0.0,
+            "successes": 0
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.09501210511748383,
+            "mean_final_yaw_error_deg": 0.36223639994859697,
+            "method": "sfss_recursive",
+            "shape": "square-fillet4",
+            "success_rate": 1.0,
+            "successes": 20
+          }
+        ]
+      },
+      "severity_4": {
+        "backend": "mesh_faithful_synthetic",
+        "episode_budget_per_method": 40,
+        "mask_source": "predicted",
+        "methods": {
+          "mfms": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 0.4184135727763115,
+            "mean_final_yaw_error_deg": 4.171489676833152,
+            "mean_steps": 17.9,
+            "success_rate": 0.6,
+            "success_rate_wilson_95": [
+              0.4459589366034619,
+              0.7365167431570807
+            ],
+            "successes": 24
+          },
+          "oracle": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 0.024889246560633183,
+            "mean_final_yaw_error_deg": 0.03930176496505737,
+            "mean_steps": 3.9,
+            "success_rate": 1.0,
+            "success_rate_wilson_95": [
+              0.9123783988027133,
+              0.9999999999999999
+            ],
+            "successes": 40
+          },
+          "sfms": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 0.3684036413307497,
+            "mean_final_yaw_error_deg": 4.762538292258978,
+            "mean_steps": 18.7,
+            "success_rate": 0.575,
+            "success_rate_wilson_95": [
+              0.42195068541991076,
+              0.7149060744004961
+            ],
+            "successes": 23
+          },
+          "sfss_one_step": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 5.492368514345142,
+            "mean_final_yaw_error_deg": 3.97621306553483,
+            "mean_steps": 1.0,
+            "success_rate": 0.0,
+            "success_rate_wilson_95": [
+              6.938893903907228e-18,
+              0.0876216011972866
+            ],
+            "successes": 0
+          },
+          "sfss_recursive": {
+            "episodes": 40,
+            "mean_final_xy_error_mm": 0.4128134304309249,
+            "mean_final_yaw_error_deg": 4.413754558563232,
+            "mean_steps": 18.6,
+            "success_rate": 0.55,
+            "success_rate_wilson_95": [
+              0.3982909179893206,
+              0.6929469218909508
+            ],
+            "successes": 22
+          }
+        },
+        "per_shape": [
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.44351964432645463,
+            "mean_final_yaw_error_deg": 3.4839282393455506,
+            "method": "mfms",
+            "shape": "square-concave2",
+            "success_rate": 0.7,
+            "successes": 14
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.03777220845222473,
+            "mean_final_yaw_error_deg": 0.049134016036987305,
+            "method": "oracle",
+            "shape": "square-concave2",
+            "success_rate": 1.0,
+            "successes": 20
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.3768314720268308,
+            "mean_final_yaw_error_deg": 4.288561134040355,
+            "method": "sfms",
+            "shape": "square-concave2",
+            "success_rate": 0.65,
+            "successes": 13
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 5.9369026296862,
+            "mean_final_yaw_error_deg": 3.9629844665527343,
+            "method": "sfss_one_step",
+            "shape": "square-concave2",
+            "success_rate": 0.0,
+            "successes": 0
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.4593370985044767,
+            "mean_final_yaw_error_deg": 3.832982784509659,
+            "method": "sfss_recursive",
+            "shape": "square-concave2",
+            "success_rate": 0.55,
+            "successes": 11
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.39330750122616853,
+            "mean_final_yaw_error_deg": 4.859051114320755,
+            "method": "mfms",
+            "shape": "square-fillet4",
+            "success_rate": 0.5,
+            "successes": 10
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.012006284669041634,
+            "mean_final_yaw_error_deg": 0.029469513893127443,
+            "method": "oracle",
+            "shape": "square-fillet4",
+            "success_rate": 1.0,
+            "successes": 20
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.35997581063466855,
+            "mean_final_yaw_error_deg": 5.2365154504776,
+            "method": "sfms",
+            "shape": "square-fillet4",
+            "success_rate": 0.5,
+            "successes": 10
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 5.047834399004086,
+            "mean_final_yaw_error_deg": 3.9894416645169257,
+            "method": "sfss_one_step",
+            "shape": "square-fillet4",
+            "success_rate": 0.0,
+            "successes": 0
+          },
+          {
+            "episodes": 20,
+            "mean_final_xy_error_mm": 0.36628976235737315,
+            "mean_final_yaw_error_deg": 4.994526332616806,
+            "method": "sfss_recursive",
+            "shape": "square-fillet4",
+            "success_rate": 0.55,
+            "successes": 11
+          }
+        ]
+      }
+    }
+  },
+  "panda": {
+    "backend": "panda_native_camera_dynamic_contact",
+    "results": [
+      {
+        "episodes": 80,
+        "mask_source": "ground_truth",
+        "mean_final_xy_error_mm": 0.3496038314260111,
+        "mean_final_yaw_error_deg": 0.55010664085436,
+        "method": "mfms",
+        "success_rate": 0.925,
+        "success_rate_ci95_high": 0.9651747507069949,
+        "success_rate_ci95_low": 0.8458798391878072,
+        "successes": 74
+      },
+      {
+        "episodes": 80,
+        "mask_source": "ground_truth",
+        "mean_final_xy_error_mm": 0.1183723343042404,
+        "mean_final_yaw_error_deg": 0.16309902734422826,
+        "method": "oracle",
+        "success_rate": 1.0,
+        "success_rate_ci95_high": 1.0,
+        "success_rate_ci95_low": 0.954181870464473,
+        "successes": 80
+      },
+      {
+        "episodes": 80,
+        "mask_source": "ground_truth",
+        "mean_final_xy_error_mm": 0.2589288123856476,
+        "mean_final_yaw_error_deg": 0.598040219016692,
+        "method": "sfms",
+        "success_rate": 0.9625,
+        "success_rate_ci95_high": 0.9871654310800887,
+        "success_rate_ci95_low": 0.895452799099549,
+        "successes": 77
+      },
+      {
+        "episodes": 80,
+        "mask_source": "ground_truth",
+        "mean_final_xy_error_mm": 0.3006822978536112,
+        "mean_final_yaw_error_deg": 0.6657320141688583,
+        "method": "sfss",
+        "success_rate": 0.9125,
+        "success_rate_ci95_high": 0.9569679982179403,
+        "success_rate_ci95_low": 0.8302320449152502,
+        "successes": 73
+      },
+      {
+        "episodes": 80,
+        "mask_source": "predicted",
+        "mean_final_xy_error_mm": 0.36409947685194977,
+        "mean_final_yaw_error_deg": 0.572475651972374,
+        "method": "mfms",
+        "success_rate": 0.925,
+        "success_rate_ci95_high": 0.9651747507069949,
+        "success_rate_ci95_low": 0.8458798391878072,
+        "successes": 74
+      },
+      {
+        "episodes": 80,
+        "mask_source": "predicted",
+        "mean_final_xy_error_mm": 0.1183723343042404,
+        "mean_final_yaw_error_deg": 0.16309902734422826,
+        "method": "oracle",
+        "success_rate": 1.0,
+        "success_rate_ci95_high": 1.0,
+        "success_rate_ci95_low": 0.954181870464473,
+        "successes": 80
+      },
+      {
+        "episodes": 80,
+        "mask_source": "predicted",
+        "mean_final_xy_error_mm": 0.2845581145025367,
+        "mean_final_yaw_error_deg": 0.6005975814660186,
+        "method": "sfms",
+        "success_rate": 0.9375,
+        "success_rate_ci95_high": 0.9730106243291581,
+        "success_rate_ci95_low": 0.8618985123272558,
+        "successes": 75
+      },
+      {
+        "episodes": 80,
+        "mask_source": "predicted",
+        "mean_final_xy_error_mm": 0.3159736664597303,
+        "mean_final_yaw_error_deg": 0.5741516616052653,
+        "method": "sfss",
+        "success_rate": 0.925,
+        "success_rate_ci95_high": 0.9651747507069949,
+        "success_rate_ci95_low": 0.8458798391878072,
+        "successes": 74
+      }
+    ],
+    "source_csv_path": "artifacts/showcase_corrected_panda_20260714/panda_dynamic_insertion_matrix/matrix.csv",
+    "source_csv_sha256": "6ddff6f9d29724e5c34bf9fc691e628a08cf8e1b3f486ed074f62823ca6094f7",
+    "source_path": "artifacts/showcase_corrected_panda_20260714/panda_dynamic_insertion_matrix/summary.json",
+    "source_sha256": "30aceaf038167cfff117d1e9920b6549003990193de9572bb75218c87b773395",
+    "status": "corrected_current",
+    "test_shapes": [
+      "square-concave2",
+      "square-fillet4"
+    ]
+  },
+  "schema_version": "showcase-public/v2",
+  "shape_splits": [
+    {
+      "name": "square-triangle",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-square",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-pentagon",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-hexagon",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-concave1",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-convex1",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-convex2",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-convex3",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-convex4",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-fillet1",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-fillet2",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-fillet3",
+      "split": "train_seen"
+    },
+    {
+      "name": "square-diamond",
+      "split": "validation_unseen"
+    },
+    {
+      "name": "square-trapezoid",
+      "split": "validation_unseen"
+    },
+    {
+      "name": "square-concave2",
+      "split": "test_unseen"
+    },
+    {
+      "name": "square-fillet4",
+      "split": "test_unseen"
+    }
+  ],
+  "source_release": "software_completion_20260713",
+  "source_revision": "9dcf20b56cb8dec4a26f029850fcf852b2e585db",
+  "source_revision_dirty": true,
+  "sources": [
+    {
+      "path": "artifacts/software_completion_20260713/FINAL_SOFTWARE_REPORT.md",
+      "sha256": "8ed5fed5ad614135abbeb44fd4bfbf1228c7e6a152717a30800a4b73a1249e06"
+    },
+    {
+      "path": "artifacts/software_completion_20260713/final_benchmark_release/benchmark_manifest.json",
+      "sha256": "542a3f704b76807c68491e414bdb179b0cde4f0d534f2db63f98d262659bc3e2"
+    },
+    {
+      "path": "artifacts/software_completion_20260713/final_benchmark_release/mesh_clean/summary.json",
+      "sha256": "78d3324c65d7f67a27ce309a4724d5804bbef1760c7150ab372e320d343cf5c5"
+    },
+    {
+      "path": "artifacts/software_completion_20260713/final_benchmark_release/mesh_severity4/summary.json",
+      "sha256": "aa0c27f763b449b5b0c73262cafdf59b28160307a5f0ec78b9856752a9dbfd49"
+    },
+    {
+      "path": "artifacts/software_completion_20260713/final_benchmark_release/mesh_clean/per_shape.csv",
+      "sha256": "05fd2bbf33daefb29ad582569766adabbff65adcbb3efe826fcdb4b353f7d044"
+    },
+    {
+      "path": "artifacts/software_completion_20260713/final_benchmark_release/mesh_severity4/per_shape.csv",
+      "sha256": "95d89e62951ef7a7e41f8c8d8b6f388a1549028da65c3a57f93432097cad2d02"
+    },
+    {
+      "path": "artifacts/showcase_corrected_panda_20260714/panda_dynamic_insertion_matrix/summary.json",
+      "sha256": "30aceaf038167cfff117d1e9920b6549003990193de9572bb75218c87b773395"
+    },
+    {
+      "path": "artifacts/showcase_corrected_panda_20260714/panda_dynamic_insertion_matrix/matrix.csv",
+      "sha256": "6ddff6f9d29724e5c34bf9fc691e628a08cf8e1b3f486ed074f62823ca6094f7"
+    },
+    {
+      "path": "data/mesh_v2_train_seen_clean_release/manifest.json",
+      "sha256": "0bb77863a73227a6d72461cb1396e68e10331e4dbde971d361bc08aafe3178fe"
+    },
+    {
+      "path": "data/mesh_v2_validation_unseen_clean_release/manifest.json",
+      "sha256": "f9382db9f7539b0963810316346d1f568db820364905345dfeab7a1a3d4b2d33"
+    },
+    {
+      "path": "data/mesh_v2_test_unseen_clean_release/manifest.json",
+      "sha256": "f3099a3dc83045bbc7d1b3e9fddc8d8662d102467e234453cff8f08d57776b77"
+    }
+  ]
+}

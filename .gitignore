@@ -1,3 +1,14 @@
 /.venv
 __pycache__/
 *.pyc
+.DS_Store
+._*
+.cache/
+.codegraph/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+peg-in-hole-sfn/data/
+peg-in-hole-sfn/artifacts/
+peg-in-hole-sfn/models/

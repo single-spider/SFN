@@ -1,0 +1,157 @@
+{
+  "suite": {
+    "seed": 713,
+    "episodes": 4,
+    "shapes": ["square-square", "square-triangle"],
+    "base_config": "configs/evaluation.yaml",
+    "output": "artifacts/software_completion_20260713/release_ablations",
+    "checkpoints": {
+      "position": "models/position.pt",
+      "orientation": "models/orientation_mesh_v2_hybrid.pt"
+    }
+  },
+  "runs": [
+    {
+      "id": "pose_position_only",
+      "comparison": "pose_channels",
+      "label": "position_only",
+      "sfss_gain_yaw": 0.0,
+      "confidence_mode": "ignore"
+    },
+    {
+      "id": "pose_position_yaw",
+      "comparison": "pose_channels",
+      "label": "position_plus_yaw",
+      "sfss_gain_yaw": 0.7,
+      "confidence_mode": "ignore"
+    },
+    {
+      "id": "robust_ignore",
+      "comparison": "confidence",
+      "label": "ignore",
+      "confidence_mode": "ignore",
+      "robustness_profile": "combined"
+    },
+    {
+      "id": "robust_scale",
+      "comparison": "confidence",
+      "label": "scale",
+      "confidence_mode": "scale",
+      "robustness_profile": "combined"
+    },
+    {
+      "id": "robust_hold",
+      "comparison": "confidence",
+      "label": "hold",
+      "confidence_mode": "hold",
+      "robustness_profile": "combined"
+    },
+    {
+      "id": "temporal_raw",
+      "comparison": "temporal",
+      "label": "no_temporal_smoothing",
+      "confidence_mode": "ignore",
+      "robustness_profile": "combined"
+    },
+    {
+      "id": "temporal_ema08",
+      "comparison": "temporal",
+      "label": "ema_alpha_0.8",
+      "confidence_mode": "ignore",
+      "robustness_profile": "combined",
+      "temporal_alpha": 0.8
+    },
+    {
+      "id": "tta_1",
+      "comparison": "tta_samples",
+      "label": "one_sample",
+      "confidence_mode": "ignore",
+      "robustness_profile": "combined",
+      "ensemble_samples": 1
+    },
+    {
+      "id": "tta_4",
+      "comparison": "tta_samples",
+      "label": "four_samples",
+      "confidence_mode": "ignore",
+      "robustness_profile": "combined",
+      "ensemble_samples": 4
+    },
+    {
+      "id": "initial_range_5",
+      "comparison": "initial_range",
+      "label": "plus_minus_5",
+      "confidence_mode": "ignore",
+      "config_overrides": {
+        "environment": {"xy_initial_range_mm": 5.0, "yaw_initial_range_deg": 5.0}
+      }
+    },
+    {
+      "id": "initial_range_10",
+      "comparison": "initial_range",
+      "label": "plus_minus_10",
+      "confidence_mode": "ignore",
+      "config_overrides": {
+        "environment": {"xy_initial_range_mm": 10.0, "yaw_initial_range_deg": 10.0}
+      }
+    },
+    {
+      "id": "insertion_tol_0p5",
+      "comparison": "insertion_tolerance",
+      "label": "0.5_mm",
+      "task": "insertion",
+      "confidence_mode": "ignore",
+      "sfss_gain_yaw": 0.0,
+      "config_overrides": {
+        "environment": {"yaw_initial_range_deg": 0.0},
+        "insertion": {"collision_mode": "proxy", "insertion_xy_axis_mm": 0.5}
+      }
+    },
+    {
+      "id": "insertion_tol_0p6",
+      "comparison": "insertion_tolerance",
+      "label": "0.6_mm",
+      "task": "insertion",
+      "confidence_mode": "ignore",
+      "sfss_gain_yaw": 0.0,
+      "config_overrides": {
+        "environment": {"yaw_initial_range_deg": 0.0},
+        "insertion": {"collision_mode": "proxy", "insertion_xy_axis_mm": 0.6}
+      }
+    },
+    {
+      "id": "insertion_tol_1p0",
+      "comparison": "insertion_tolerance",
+      "label": "1.0_mm",
+      "task": "insertion",
+      "confidence_mode": "ignore",
+      "sfss_gain_yaw": 0.0,
+      "config_overrides": {
+        "environment": {"yaw_initial_range_deg": 0.0},
+        "insertion": {"collision_mode": "proxy", "insertion_xy_axis_mm": 1.0}
+      }
+    },
+    {
+      "id": "panda_kinematic_smoke",
+      "comparison": "panda_execution",
+      "label": "kinematic",
+      "backend": "panda_kinematic",
+      "method": "oracle",
+      "task": "alignment",
+      "shapes": ["square-square"],
+      "episodes": 1,
+      "optional": true
+    },
+    {
+      "id": "panda_dynamic_smoke",
+      "comparison": "panda_execution",
+      "label": "dynamic",
+      "backend": "panda_dynamic",
+      "method": "oracle",
+      "task": "alignment",
+      "shapes": ["square-square"],
+      "episodes": 1,
+      "optional": true
+    }
+  ]
+}

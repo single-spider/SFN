@@ -1,0 +1,48 @@
+stages:
+  - name: small_xy
+    updates: 50
+    rollout_steps: 64
+    num_envs: 4
+    xy_initial_range_mm: 3.0
+    yaw_initial_range_deg: 0.0
+    mask_source: ground_truth
+  - name: xy_yaw
+    updates: 75
+    rollout_steps: 64
+    num_envs: 4
+    xy_initial_range_mm: 5.0
+    yaw_initial_range_deg: 5.0
+    mask_source: ground_truth
+  - name: full_semantic
+    updates: 100
+    rollout_steps: 64
+    num_envs: 4
+    xy_initial_range_mm: 10.0
+    yaw_initial_range_deg: 10.0
+    mask_source: ground_truth
+  - name: predicted_masks
+    updates: 100
+    rollout_steps: 64
+    num_envs: 4
+    xy_initial_range_mm: 10.0
+    yaw_initial_range_deg: 10.0
+    mask_source: predicted
+    anchor_imitation_coef: 0.5
+  - name: randomized_perception
+    updates: 100
+    rollout_steps: 64
+    num_envs: 4
+    xy_initial_range_mm: 10.0
+    yaw_initial_range_deg: 10.0
+    mask_source: predicted
+    robustness_profile: severity_2
+    anchor_imitation_coef: 0.25
+  - name: burst_occlusion
+    updates: 100
+    rollout_steps: 64
+    num_envs: 4
+    xy_initial_range_mm: 10.0
+    yaw_initial_range_deg: 10.0
+    mask_source: predicted
+    robustness_profile: occlusion_burst5
+    anchor_imitation_coef: 0.1

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "checkpoints": [
+    {
+      "component": "segmentation",
+      "path": "models/segmentation_mesh_v2_ce.pt",
+      "config_paths": ["configs/segmentation.yaml"]
+    },
+    {
+      "component": "position",
+      "path": "models/position_mesh_v2_geometric.pt",
+      "config_paths": ["configs/position.yaml"],
+      "selection": {"status": "not_applicable", "reason": "deterministic geometric estimator"}
+    },
+    {
+      "component": "orientation",
+      "path": "models/orientation_mesh_v2_symmetry_hybrid.pt",
+      "config_paths": ["configs/orientation.yaml"]
+    },
+    {
+      "component": "sfms",
+      "path": "models/sfms_mesh_v2_rl_best_compatible.pt",
+      "config_paths": ["configs/sfms.yaml"],
+      "selection": {"metric": "eval.success_rate", "mode": "max"}
+    },
+    {
+      "component": "mfms",
+      "path": "models/mfms_mesh_v2_teacher_compatible.pt",
+      "config_paths": ["configs/mfms.yaml"],
+      "selection": {"status": "unknown", "reason": "no validation selection record is embedded"}
+    }
+  ]
+}

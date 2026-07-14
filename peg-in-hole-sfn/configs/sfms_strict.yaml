@@ -1,0 +1,45 @@
+project:
+  seed: 1
+  device: auto
+  output_root: artifacts
+
+environment:
+  task: alignment
+  max_steps: 20
+  xy_initial_range_mm: 10.0
+  yaw_initial_range_deg: 10.0
+  # Stricter than the normal alignment threshold and closer to insertion mode.
+  xy_success_axis_mm: 0.6
+  yaw_success_deg: 1.0
+  xy_workspace_mm: 15.0
+  yaw_workspace_deg: 15.0
+  max_action_xy_mm: 2.0
+  max_action_yaw_deg: 2.0
+  reward_mode: dense_progress
+  gui: false
+
+camera:
+  render_width: 1280
+  render_height: 720
+  crop_width: 250
+  crop_height: 200
+  fov_y_deg: 45.0
+
+vsn:
+  position_grid_size: 21
+  position_resolution_mm: 1.0
+  orientation_angles_deg: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10]
+  mask_source: ground_truth
+
+insertion:
+  descent_increment_mm: 0.25
+  target_depth_mm: 8.0
+  max_descent_attempts: 64
+  collision_mode: geometric
+  insertion_xy_axis_mm: 0.6
+  insertion_yaw_deg: 1.0
+  max_collision_penetration_mm: 0.0
+
+evaluation:
+  episodes_per_shape: 100
+  save_videos: false
