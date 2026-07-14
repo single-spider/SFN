@@ -61,3 +61,27 @@ def test_panda_insertion_timeout_reason_is_explicit():
         assert info["termination_reason"] == "panda_insertion_timeout"
     finally:
         env.close()
+
+
+def test_insertion_observer_replaces_duplicate_descent_substep_samples():
+    motion_samples = []
+    insertion_samples = []
+    env = PandaPegInHoleInsertionEnv(
+        shapes=["square-concave1"],
+        panda_config=PandaConfig(execution_mode="kinematic"),
+        insertion_config=InsertionConfig(descent_increment_mm=1.0, target_depth_mm=3.0, max_descent_attempts=6),
+        motion_observer=lambda *_args: motion_samples.append(1),
+        motion_observer_stride=1,
+        insertion_observer=lambda _obs, trace: insertion_samples.append(trace["insertion_depth_mm"]),
+    )
+    try:
+        env.reset(seed=6, options={"shape": "square-concave1", "pose_error": [0, 0, 0], "nontrivial": False})
+        _, _, terminated, truncated, info = env.step([0, 0, 0])
+        assert terminated and not truncated and info["insertion_success"]
+        assert len(insertion_samples) == info["insertion_attempts"]
+        assert insertion_samples == sorted(insertion_samples)
+        # The ordinary alignment command contributes one 120-substep motor
+        # trajectory. Descent attempts do not add another 120 samples each.
+        assert len(motion_samples) == 120
+    finally:
+        env.close()

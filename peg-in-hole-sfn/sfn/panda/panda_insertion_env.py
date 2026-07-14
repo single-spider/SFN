@@ -72,7 +72,12 @@ class PandaPegInHoleInsertionEnv(PandaPegInHoleAlignmentEnv):
         return self.scene.execute_joint_target(
             joints,
             measured.pose_error_task,
-            physics_observer=self.motion_observer,
+            # An insertion observer already records one measured sample per
+            # completed descent increment.  Emitting the lower-level motor
+            # settling samples as well interleaves zero-depth alignment frames
+            # with insertion frames, making a monotonic descent look like an
+            # up/down hammering motion in exported replays.
+            physics_observer=None if self.insertion_observer is not None else self.motion_observer,
             observer_stride=self.motion_observer_stride,
         )
 
