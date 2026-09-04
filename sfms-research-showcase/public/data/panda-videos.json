@@ -1,0 +1,184 @@
+{
+  "schema": "sfn.panda_video_library/v1",
+  "count": 16,
+  "all_successful": true,
+  "controller": "SFMS",
+  "results": [
+    {
+      "shape": "square-triangle",
+      "success": true,
+      "final_xy_error_mm": 0.05235940070238029,
+      "final_yaw_error_deg": 0.1276370194740366,
+      "insertion_depth_mm": 8.089117310384225,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": true,
+      "video": "media/panda-shapes/panda_sfms_square-triangle_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-triangle_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-square",
+      "success": true,
+      "final_xy_error_mm": 0.3174320190255898,
+      "final_yaw_error_deg": 0.09287540694873542,
+      "insertion_depth_mm": 8.089176133438812,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-square_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-square_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-pentagon",
+      "success": true,
+      "final_xy_error_mm": 0.3588392349481979,
+      "final_yaw_error_deg": 0.2031174543504335,
+      "insertion_depth_mm": 8.081167177799117,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-pentagon_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-pentagon_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-hexagon",
+      "success": true,
+      "final_xy_error_mm": 0.32140535141041493,
+      "final_yaw_error_deg": 0.9049294309722029,
+      "insertion_depth_mm": 8.075594556869486,
+      "duration_s": 25.41000000000001,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-hexagon_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-hexagon_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-concave1",
+      "success": true,
+      "final_xy_error_mm": 0.4758124502940037,
+      "final_yaw_error_deg": 0.968208531793266,
+      "insertion_depth_mm": 8.08860572988869,
+      "duration_s": 25.41000000000001,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-concave1_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-concave1_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-convex1",
+      "success": true,
+      "final_xy_error_mm": 0.18428846150945516,
+      "final_yaw_error_deg": 0.8009406191891344,
+      "insertion_depth_mm": 8.088819977286548,
+      "duration_s": 31.860000000000014,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-convex1_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-convex1_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-convex2",
+      "success": true,
+      "final_xy_error_mm": 0.26172224994594145,
+      "final_yaw_error_deg": 0.26258174617538543,
+      "insertion_depth_mm": 8.089110362086503,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-convex2_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-convex2_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-convex3",
+      "success": true,
+      "final_xy_error_mm": 0.3072791626780707,
+      "final_yaw_error_deg": 0.2435481564255042,
+      "insertion_depth_mm": 8.089053215522876,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-convex3_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-convex3_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-convex4",
+      "success": true,
+      "final_xy_error_mm": 0.29964363607695377,
+      "final_yaw_error_deg": 0.14077322690820893,
+      "insertion_depth_mm": 8.089033561600422,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-convex4_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-convex4_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-fillet1",
+      "success": true,
+      "final_xy_error_mm": 0.25450373664645265,
+      "final_yaw_error_deg": 0.7016269451245307,
+      "insertion_depth_mm": 8.088898980343012,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-fillet1_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-fillet1_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-fillet2",
+      "success": true,
+      "final_xy_error_mm": 0.3077844024406587,
+      "final_yaw_error_deg": 0.2159574891511511,
+      "insertion_depth_mm": 8.089058971700751,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-fillet2_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-fillet2_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-fillet3",
+      "success": true,
+      "final_xy_error_mm": 0.2958685662319861,
+      "final_yaw_error_deg": 0.7091964944210645,
+      "insertion_depth_mm": 8.088911722480836,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-fillet3_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-fillet3_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-diamond",
+      "success": true,
+      "final_xy_error_mm": 0.04818586781745321,
+      "final_yaw_error_deg": 0.10351465642366975,
+      "insertion_depth_mm": 8.08903254029148,
+      "duration_s": 27.560000000000013,
+      "measured_precision_guard": true,
+      "video": "media/panda-shapes/panda_sfms_square-diamond_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-diamond_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-trapezoid",
+      "success": true,
+      "final_xy_error_mm": 0.3885175627049981,
+      "final_yaw_error_deg": 0.4995802356474144,
+      "insertion_depth_mm": 8.08913494492386,
+      "duration_s": 25.41000000000001,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-trapezoid_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-trapezoid_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-concave2",
+      "success": true,
+      "final_xy_error_mm": 0.4988300079906641,
+      "final_yaw_error_deg": 0.9567899857077293,
+      "insertion_depth_mm": 8.08564086499619,
+      "duration_s": 25.41000000000001,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-concave2_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-concave2_closeup_segmented_poster.png"
+    },
+    {
+      "shape": "square-fillet4",
+      "success": true,
+      "final_xy_error_mm": 0.5284999555764283,
+      "final_yaw_error_deg": 0.892245307652388,
+      "insertion_depth_mm": 8.089441750575888,
+      "duration_s": 25.41000000000001,
+      "measured_precision_guard": false,
+      "video": "media/panda-shapes/panda_sfms_square-fillet4_closeup_segmented.mp4",
+      "poster": "media/panda-shapes/panda_sfms_square-fillet4_closeup_segmented_poster.png"
+    }
+  ]
+}
